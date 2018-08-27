@@ -1,0 +1,22 @@
+#hero {
+  padding: 96px 0;
+  h1 {
+    margin: 0 0 12px 0;
+  }
+}
+
+// Portfolio section
+.portfolio-item {
+  margin: 0 0 48px 0;
+  h6 {
+    margin: 4px 0 0 0;
+    font-weight: normal;
+    color: $secondary;
+  }
+  .portfolio-content {
+    width: 50%;
+  }
+  .image img {
+    width: 50%;
+  }
+}

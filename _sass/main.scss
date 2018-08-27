@@ -1,0 +1,32 @@
+---
+---
+
+@import 'colors';
+@import 'typography';
+@import 'grid';
+@import 'landing';
+@import 'articles';
+@import 'footer';
+
+html {
+  font-family: "Fira Sans";
+  background: $background-gradient-reversed;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  padding: 24px 0;
+  margin: 12px;
+  background: white;
+}
+
+// Grid work
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+// Header
+header {
+  padding: 8px 0;
+}

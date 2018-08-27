@@ -1,0 +1,12 @@
+.grid-of-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 56px;
+}
+
+.grid-of-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 36px;
+  justify-item: center;
+}

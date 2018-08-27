@@ -1,0 +1,129 @@
+h1 {
+  font-size: 56px;
+  line-height: 1.333;
+  font-weight: 600;
+  margin: 0;
+  color: #27303e;
+  font-family: "Vollkorn"; }
+
+h2 {
+  font-size: 36px;
+  line-height: 1.333;
+  font-weight: normal;
+  margin: 0;
+  color: #27303e;
+  font-family: "Vollkorn"; }
+
+h3 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 600;
+  font-family: "Vollkorn"; }
+
+h4 {
+  font-size: 18px;
+  margin: 0;
+  font-family: "Vollkorn"; }
+
+h5 {
+  font-size: 16px;
+  margin: 0; }
+
+h6 {
+  font-size: 16px;
+  margin: 0; }
+
+p {
+  font-size: 16px;
+  line-height: 1.4; }
+
+a {
+  color: #27303e;
+  text-decoration: none; }
+
+.grid-of-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 56px; }
+
+.grid-of-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 36px;
+  justify-item: center; }
+
+#hero {
+  padding: 96px 0; }
+  #hero h1 {
+    margin: 0 0 12px 0; }
+
+.portfolio-item {
+  margin: 0 0 48px 0; }
+  .portfolio-item h6 {
+    margin: 4px 0 0 0;
+    font-weight: normal;
+    color: #67717f; }
+  .portfolio-item .portfolio-content {
+    width: 50%; }
+  .portfolio-item .image img {
+    width: 50%; }
+
+#hero .container h3 {
+  font-family: 'Fira sans';
+  font-weight: normal;
+  margin: 12px 0 0 0; }
+
+section#content {
+  max-width: 960px;
+  margin: 0 auto; }
+  section#content p {
+    margin: 0;
+    max-width: 640px; }
+    section#content p b {
+      font-size: 16px;
+      margin: 0 0 12px 0;
+      font-weight: 500;
+      color: #27303e; }
+  section#content h3 {
+    margin: 56px 0 12px 0; }
+  section#content .lists .list-item {
+    margin: 0 0 24px 0; }
+    section#content .lists .list-item p {
+      font-size: 14px;
+      color: #67717f; }
+  section#content .lists .list-item > p {
+    margin: 0 0 8px 0; }
+  section#content .process-step {
+    margin: 0 0 56px 0; }
+    section#content .process-step ul li,
+    section#content .process-step ol li {
+      font-size: 16px;
+      margin: 0 0 12px 0;
+      max-width: 640px;
+      line-height: 1.4; }
+
+footer div p {
+  margin: 0; }
+footer div h4 {
+  color: #67717f; }
+footer div a {
+  font-size: 16px; }
+
+html {
+  font-family: "Fira Sans";
+  background: -webkit-linear-gradient(bottom, #E5E5E4 0%, #e8e8e8 32%, #efefef 40%, #ffffff 100%);
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  padding: 24px 0;
+  margin: 12px;
+  background: white; }
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto; }
+
+header {
+  padding: 8px 0; }
+
+/*# sourceMappingURL=main.css.map */

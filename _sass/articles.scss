@@ -1,0 +1,56 @@
+#hero {
+  .container {
+    h3 {
+      font-family: 'Fira sans';
+      font-weight: normal;
+      margin: 12px 0 0 0;
+    }
+  }
+}
+
+// Content section
+section#content {
+  max-width: 960px;
+  margin: 0 auto;
+
+  // Content
+  p {
+    margin: 0;
+    max-width: 640px;
+    b {
+      font-size: 16px;
+      margin: 0 0 12px 0;
+      font-weight: 500;
+      color: $black;
+    }
+  }
+  h3 {
+    margin: 56px 0 12px 0;
+  }
+
+  // UX Problems
+  .lists {
+    .list-item {
+      margin: 0 0 24px 0;
+      p {
+        font-size: 14px;
+        color: $secondary;
+      }
+    }
+    .list-item>p {
+      margin: 0 0 8px 0;
+    }
+  }
+
+  // Lists for persona
+  .process-step {
+    margin: 0 0 56px 0;
+    ul li,
+    ol li {
+      font-size: 16px;
+      margin: 0 0 12px 0;
+      max-width: 640px;
+      line-height: 1.4;
+    }
+  }
+}
