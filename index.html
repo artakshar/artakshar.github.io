@@ -1,0 +1,18 @@
+---
+title: Hello world
+layout: landing
+---
+
+<section id="hero">
+    <div class="container">
+      <h1>I'm Akshar Patel, a product designer currently working at Wingify in Pune, India.</h1>
+      <h3></h3>
+    </div>
+  </section>
+  <section id="portfolio">
+    <div class="container">
+      {% for post in site.posts %}
+        {% include articleListItem.html %}
+      {% endfor %}
+    </div>
+  </section>

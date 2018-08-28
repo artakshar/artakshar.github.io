@@ -1,11 +1,20 @@
 footer {
-  div p {
-    margin: 0;
-  }
-  div h4 {
-    color: $secondary;
-  }
-  div a {
-    font-size: 16px;
+  max-width: 960px;
+  background: $background;
+
+  div {
+    padding: 24px;
+
+    p {
+      margin: 0;
+    }
+
+    h4 {
+      color: $secondary;
+    }
+
+    a {
+      font-size: 16px;
+    }
   }
 }
