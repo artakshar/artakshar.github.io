@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.sh": "shellscript",
+    "*.js": "javascript",
+    "*.html": "html",
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "__locale": "cpp"
+  }
+}

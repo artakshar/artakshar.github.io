@@ -110,7 +110,7 @@ footer div a {
   font-size: 16px; }
 
 html {
-  font-family: "Fira Sans";
+  font-family: $sans;
   background: -webkit-linear-gradient(bottom, #E5E5E4 0%, #e8e8e8 32%, #efefef 40%, #ffffff 100%);
   -webkit-font-smoothing: antialiased; }
 

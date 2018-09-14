@@ -8,10 +8,36 @@
   }
 }
 
+// Beacon styling
+.beacon {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: red;
+  z-index: 9;
+}
+
 // Content section
 section#content {
-  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+
+  .image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    p, b {
+      font-size: 14px;
+      line-height: 1.5em;
+      text-align: center;
+    }
+  }
 
   // Content
   p {
@@ -49,7 +75,7 @@ section#content {
     ol li {
       font-size: 16px;
       margin: 0 0 12px 0;
-      max-width: 640px;
+      max-width: 600px;
       line-height: 1.4;
     }
   }

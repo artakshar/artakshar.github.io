@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building platform for social proof"
+title: "Building a platform to increase sales"
 date: 2018-08-26 10:15:00 -0600
 brand: "GrowthKit"
 permalink: /:slug
@@ -9,78 +9,114 @@ permalink: /:slug
 
 <section id="hero">
   <div class="container">
-    <h2>Building platform for social proof</h2>
-    <h3>Helpshift</h3>
+    <h2>Building a platform to increase sales</h2>
+    <h3>GrowthKit</h3>
   </div>
 </section>
 <section id="content">
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
-  />
   <!-- INTRODUCTION SECTION -->
-  <div id="introduction" class="process-step grid-of-two">
+  <div id="introduction" class="process-step grid-of-two small-container">
     <div>
-      <h3>About Helpshift</h3>
-      <p>Helpshift enabled support teams at Microsoft, Supercell, and Tencent Games to help over 600 million users monthly. The growing number of conversations coupled with the diverse user base led us to focus our efforts on making our UX more inclusive and accessible. I was leading the design efforts for making Helpshift SDKs accessible across all platforms.</p>
+      <h3>About GrowthKit</h3>
+      <p>GrowthKit is platform which helped marketers increase revenue by leveraging customer insights such as, sales per week and trending products. We started off with marketing managers at mid-sized e-commerce companies. These companies were at 1 million dollars in annual revenue. The initial tests provided an average uplift of conversion rate by 15%.</p>
     </div>
     <div>
-      <h3>Goals of this exercise</h3>
+      <h3>Product goals</h3>
       <ul>
-        <li>Adding accessibility to all our existing SDKs</li>
-        <li>Work with OS-level accessibility tools: Talkback, VoiceOver, tooltips</li>
-        <li>Educating fellow designers about accessibility</li>
-        <li>Establishing accessibility processes for design and engineering</li>
+        <li>Increase sales with social proof widgets</li>
+        <li>Core use-case should be developer independent</li>
+        <li>Adding widgets should be interactive experience</li>
       </ul>
     </div>
   </div>
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
+  <img src="/assets/building-platform-for-social-proof/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
   />
   <!-- UX Solution -->
-  <div class="process-step">
-    <h3>Adding accessibility to all our existing SDKs</h3>
+  <div class="process-step small-container">
+    <h3>User persona and design challenge</h3>
     <p>
-    Accessibility means all text is readable, all elements have the right labels and all the user flows are usable by all. I referred to W3C Compliance for the basic requirements and recommendations for font size and contrast ratio.
+    Our target audience was marketing managers at mid-sized e-commerce. Top design challenge was to be intuitive, and easy to setup.
     </p>
   </div>
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  <div class="process-step small-container">
+    <h3>UX Solution</h3>
+    <p>GrowthKit was designed as platform for the industry a marketer belongs to. One example of how this would impact the website is, the suggested widgets would differ for a travel website versus fashion website.</p>
+    <br>
+    <p>Another core experience was around embedding widgets on a webpage. For this we used the Editor component from our Component Library. With a little modifications we were ready to test out this new experience.</p>
+  </div>
+  <img src="/assets/building-platform-for-social-proof/solution-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  <div class="process-step small-container">
+    <h3>User research</h3>
+    <p>Attended close to ~40 customer interviews and gather insights along with product owner.</p>
+    <br>
+    <p>Key insights from user research</p>
+    <ul>
+      <li>Drive more sales without giving out discounts or offers at all times. Social proof is an effective way of doing it without having to give away a lot of discounts</li>
+      <li>A lot of the tools out there don't tell you what a lot of the best practices are, we guide you through the best usage of social proof notifications across your store</li>
+      <li>Customers are looking out for what other folks like them are purchasing and what other customers are talking about the products they are about to purchase, Social proof makes it possible to leverage that information</li>
+      <li>Marketing is stretched for resources and getting developers to set up these campaigns themselves is a hard task</li>
+    </ul>
+  </div>
+  <div class="process-step small-container">
+    <h3>Wireframes</h3>
+    <p>We believe in getting feedback from potential users early on. Therefore, these wireframes were translated from pen and paper to mid-fidelity. This helped us with testing some of the UI elements along with the UX flow early.</p>
+  </div>
+  <img src="/assets/building-platform-for-social-proof/wireframes-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales" />
   <div class="process-step">
-    <h3>Working with Talkback & VoiceOver</h3>
-    <p>Most of the devices today have an accessibility tool which reads out a description of everything happening on your screen. You get Talkback on Android and VoiceOver on iOS and macOS.
+    <h3>Additional customer interviews</h3>
+    <p>During our wireframing the designs we had great opportunity to show the wireframe to early adopters. We conducted these tests remotely. Top questions usually would be,</p>
+    <ul>
+      <li>How aware are you at this stage of the type of data sources you want to connect?</li>
+      <li>What do you understand by the different pages shown here?</li>
+      <li>What levers of customisation are would you like to see here?</li>
+      <li>If you were to compare connecting data sources at this point vs at the start which one would you prefer</li>
+    </ul>
+    <br>
+    <p><b>Key insights from the customer interviews</b></p>
+    <ul>
+      <li>Some kind of live preview on their website</li>
+      <li>Wished to see messaging and design under the same step</li>
+      <li>Most of the users wanted Google Analytics connection to be done while being on-boarded</li>
+    </ul>
+  </div>
+  <div class="process-step">
+    <h3>Interaction and User Interface design</h3>
+    <p>The interaction design for GrowthKit was influenced by our learning from Convertfly. On the similar lines, GrowthKit helped marketers set up different campaigns for increase sales at the different part of the customer journey. The majority of interaction work was around the setup and onboarding flow.
     </p>
-    <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales" class="mt-56 mb-24"/>
-    <p><b>Defining actions and labelling them right</b></p>
-    <p>Add explanation: Creating consistency across all actions</p>
-    <br>
-    <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales" class="mt-56 mb-24"/>
-    <p><b>Defining core user flows</b></p>
-    <p>All the elements which don’t have to be part of the accessibility flow</p>
   </div>
-  <hr>
-  <div class="process-step">
-    <h3>Educating fellow designers about accessibility</h3>
-    <p>Helpshift had a design team of 6 product designers. To get inclusive mindsets we had to have equal knowledge of do’s and don’ts of accessibility. I was given the responsibility of creating awareness of the need to think about accessibility and how can we do our best to be more accessible.</p>
-    <br>
-    <p>Conducted sessions detailing the need to focus on accessibility and what are the tools we would need to design for (Talkback and VoiceOver)</p>
+  <div class="process-step image-container">
+    <img src="/assets/building-platform-for-social-proof/onboarding-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>Onboarding</b>: Capturing industry as a first and then product could adapt to that industry</p>
   </div>
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-  <div class="process-step">
-    <h3>Establishing accessibility processes for design & engineering</h3>
-    <p>The next step for accessibility efforts at Helpshift was to add accessibility practices to the design process and prepare developers for what to expect with upcoming features.</p>
+  <div class="process-step image-container">
+    <img src="/assets/building-platform-for-social-proof/onboarding-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>Onboarding</b>: Showing upcoming integrations to create anticipation</p>
+  </div>
+  <!-- <div class="process-step small-container">
+    <p><b>Onboarding and Integrations</b></p>
     <ul>
-      <li>Adding labels to any new UI elements you use</li>
-      <li>Using text styles recommended by respective OS (used Material design and Human Interface Guidelines for most of it)</li>
-      <li>A redefined colour palette for eliminating all the colours with bad contrast ratios</li>
+      <li>Capturing industry as a first and then product could adapt to that industry</li>
+      <li>Showing upcoming integrations to create anticipation</li>
     </ul>
+  </div> -->
+  <div class="process-step image-container">
+    <img src="/assets/building-platform-for-social-proof/campaign-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>Campaigns</b>: The form on a card gains focus while everything is flatten with grey background</p>
   </div>
-  <hr>
-  <div class="process-step">
-    <h3>Takeaways and lessons learnt</h3>
-    <p>I found this project interesting for the reason there was so much to learn about peripherals of design and reading through 100 pages of documents to learn about best practices.</p>
-    <br>
-    <p><b>Things I learned</b></p>
-    <ul>
-      <li>The need for accessibility at scale</li>
-      <li>The current state of accessibility tools on Android, iOS & macOS</li>
-      <li>The engineering side of accessibility</li>
-    </ul>
+  <div class="process-step image-container">
+    <img src="/assets/building-platform-for-social-proof/campaign-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>Campaigns</b>: Setting expectations right; Next button has the informs what's next to come</p>
+  </div>
+  <div class="process-step image-container">
+    <img src="/assets/building-platform-for-social-proof/widgets-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>All widgets</b>: We suggest widgets based on the industry marketer selects in onboarding flow</p>
+  </div>
+  <div class="process-step image-container">
+    <img src="/assets/building-platform-for-social-proof/widgets-3.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>All widgets</b>: Preview helps users understand widgets without investing efforts in setting them up</p>
+  </div>
+  <div class="process-step image-container">
+    <img src="/assets/building-platform-for-social-proof/widgets-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>All widgets</b>: Tags help user learn where the widget would work the best</p>
   </div>
 </section>

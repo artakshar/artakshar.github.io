@@ -17,7 +17,7 @@ permalink: /:slug
   <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
   />
   <!-- INTRODUCTION SECTION -->
-  <div id="introduction" class="process-step grid-of-two">
+  <div id="introduction" class="process-step grid-of-two small-container">
     <div>
       <h3>About Helpshift</h3>
       <p>Helpshift enabled support teams at Microsoft, Supercell, and Tencent Games to help over 600 million users monthly. The growing number of conversations coupled with the diverse user base led us to focus our efforts on making our UX more inclusive and accessible. I was leading the design efforts for making Helpshift SDKs accessible across all platforms.</p>
@@ -32,7 +32,7 @@ permalink: /:slug
       </ul>
     </div>
   </div>
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
+  <img src="/assets/learning-educating-accessibility/landing.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
   />
   <!-- UX Solution -->
   <div class="process-step">
@@ -41,20 +41,18 @@ permalink: /:slug
     Accessibility means all text is readable, all elements have the right labels and all the user flows are usable by all. I referred to W3C Compliance for the basic requirements and recommendations for font size and contrast ratio.
     </p>
   </div>
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  <img src="/assets/learning-educating-accessibility/platforms.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
   <div class="process-step">
     <h3>Working with Talkback & VoiceOver</h3>
     <p>Most of the devices today have an accessibility tool which reads out a description of everything happening on your screen. You get Talkback on Android and VoiceOver on iOS and macOS.
-    </p>
-    <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales" class="mt-56 mb-24"/>
+    </p><br><br>
     <p><b>Defining actions and labelling them right</b></p>
-    <p>Add explanation: Creating consistency across all actions</p>
+    <p>Accessibility tools use these labels to help users by reading it out. With the accessibility practice we had to add correct labels to provide the same experience to all humans.</p>
     <br>
-    <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales" class="mt-56 mb-24"/>
     <p><b>Defining core user flows</b></p>
-    <p>All the elements which don’t have to be part of the accessibility flow</p>
+    <p>The elements which don’t have to be part of the accessibility flow. Each flows had to be drawn out and then strategic add labels and make elements part of accessibility flow.</p>
   </div>
-  <hr>
+  <img src="/assets/learning-educating-accessibility/label.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
   <div class="process-step">
     <h3>Educating fellow designers about accessibility</h3>
     <p>Helpshift had a design team of 6 product designers. To get inclusive mindsets we had to have equal knowledge of do’s and don’ts of accessibility. I was given the responsibility of creating awareness of the need to think about accessibility and how can we do our best to be more accessible.</p>

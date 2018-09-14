@@ -17,7 +17,7 @@ permalink: /:slug
   <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
   />
   <!-- INTRODUCTION SECTION -->
-  <div id="introduction" class="process-step grid-of-two">
+  <div id="introduction" class="process-step grid-of-two small-container">
     <div>
       <h3>About Helpshift</h3>
       <p>Helpshift enabled support teams at Microsoft, Supercell, and Tencent Games to help over 600 million users monthly. The growing number of conversations coupled with the diverse user base led us to focus our efforts on making our UX more inclusive and accessible. I was leading the design efforts for making Helpshift SDKs accessible across all platforms.</p>
@@ -50,7 +50,7 @@ permalink: /:slug
     <p><b>Defining actions and labelling them right</b></p>
     <p>Add explanation: Creating consistency across all actions</p>
     <br>
-    <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales" class="mt-56 mb-24"/>
+  
     <p><b>Defining core user flows</b></p>
     <p>All the elements which don’t have to be part of the accessibility flow</p>
   </div>

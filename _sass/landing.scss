@@ -20,3 +20,19 @@
     width: 50%;
   }
 }
+
+#about {
+  margin: 96px;
+  h4 {
+    margin: 0;
+    max-width: 720px;
+    font-size: 20px;
+    line-height: 1.56;
+    font-weight: 400;
+    font-family: $sans;
+  }
+  a {
+    color: $accent;
+    text-decoration: underline;
+  }
+}

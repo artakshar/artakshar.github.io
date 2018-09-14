@@ -1,3 +1,4 @@
+// Grid classes
 .grid-of-two {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -9,4 +10,16 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 36px;
   justify-item: center;
+}
+
+
+// Container classes
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.small-container {
+  max-width: 960px;
+  margin: 0 auto;
 }

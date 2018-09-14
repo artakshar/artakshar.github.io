@@ -1,14 +1,12 @@
 <footer class="container">
-  <div class="grid-of-two">
-    <div>
-      <h4>Email</h4>
-      <a href: "mailto:akshar.patel.art@gmail.com">
-        <p>akshar.patel.art@gmail.com</p>
-      </a>
-    </div>
-    <div>
-      <h4>Dribbble</h4>
-      <p>/akshar-patel</p>
-    </div>
-  </div>
+    {% if page.next.url %}
+      <a class="btn-outline" href="{{ page.next.url }}"><i class="zmdi zmdi-chevron-left"></i> &nbspPrevious: {{page.next.brand}}</a>
+    {% else %}
+      <a class="btn-outline" href="/"><i class="zmdi zmdi-chevron-left"></i> &nbspBack to home</a>
+    {% endif %}
+    {% if page.previous.url %}
+      <a class="btn-outline" href="{{ page.previous.url }}">Next: {{page.previous.brand}} &nbsp<i class="zmdi zmdi-chevron-right"></i></a>
+    {% else %}
+      <a class="btn-outline" href="/"></i> &nbspBack to home &nbsp<i class="zmdi zmdi-chevron-right"></i></a>
+    {% endif %}
 </footer>
