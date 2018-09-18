@@ -59,17 +59,27 @@ permalink: /:slug
     <br>
     <p>Conducted sessions detailing the need to focus on accessibility and what are the tools we would need to design for (Talkback and VoiceOver)</p>
   </div>
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
   <div class="process-step">
     <h3>Establishing accessibility processes for design & engineering</h3>
     <p>The next step for accessibility efforts at Helpshift was to add accessibility practices to the design process and prepare developers for what to expect with upcoming features.</p>
     <ul>
+      <li>A redefined colour palette for eliminating all the colours with bad contrast ratios</li>
       <li>Adding labels to any new UI elements you use</li>
       <li>Using text styles recommended by respective OS (used Material design and Human Interface Guidelines for most of it)</li>
-      <li>A redefined colour palette for eliminating all the colours with bad contrast ratios</li>
     </ul>
   </div>
-  <hr>
+  <div class="process-step image-container">
+    <img src="/assets/learning-educating-accessibility/process-3.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>Maintaing color contrasts</b>: Legible text contrast for all age groups</p>
+  </div>
+  <div class="process-step image-container">
+    <img src="/assets/learning-educating-accessibility/process-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>Adding contextual labels</b>: Example taken from Helpshift Android SDK</p>
+  </div>
+  <div class="process-step image-container">
+    <img src="/assets/learning-educating-accessibility/process-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p><b>Using system fonts</b>: This one was taken from Apple's HIG documentation</p>
+  </div>
   <div class="process-step">
     <h3>Takeaways and lessons learnt</h3>
     <p>I found this project interesting for the reason there was so much to learn about peripherals of design and reading through 100 pages of documents to learn about best practices.</p>

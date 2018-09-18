@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Designing system for consistency"
+title: "Designing a system for consistency"
 date: 2018-08-26 10:15:00 -0600
 brand: "Helpshift"
 permalink: /:slug
@@ -24,11 +24,10 @@ permalink: /:slug
     </div>
     <div>
       <h3>Goals of this exercise</h3>
+      <p>The primary goal of this exercise was to design a system which would help bring consistency in future SDK projects.</p>
       <ul>
-        <li>Adding accessibility to all our existing SDKs</li>
-        <li>Work with OS-level accessibility tools: Talkback, VoiceOver, tooltips</li>
-        <li>Educating fellow designers about accessibility</li>
-        <li>Establishing accessibility processes for design and engineering</li>
+        <li>Design a system for Helpshift mobile design team</li>
+        <li>Enabling customisability for new components and updating developer docs</li>
       </ul>
     </div>
   </div>
@@ -36,21 +35,25 @@ permalink: /:slug
   />
   <!-- UX Solution -->
   <div class="process-step">
-    <h3>Adding accessibility to all our existing SDKs</h3>
+    <h3>Designing a system for consistency</h3>
     <p>
-    Accessibility means all text is readable, all elements have the right labels and all the user flows are usable by all. I referred to W3C Compliance for the basic requirements and recommendations for font size and contrast ratio.
+    Helpshift’s design strategy was to provide native experience. This design system would start off as a style guide and then grow into a design system. The way I envisioned this to progress is,
     </p>
+    <ul>
+      <li>Colours and typography</li>
+      <li>UI elements and components</li>
+      <li>Adding usage docs for UI elements and components</li>
+      <li>Writing (starting off with tone for error messages)</li>
+      <li>Interaction library</li>
+    </ul>
   </div>
   <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
   <div class="process-step">
-    <h3>Working with Talkback & VoiceOver</h3>
-    <p>Most of the devices today have an accessibility tool which reads out a description of everything happening on your screen. You get Talkback on Android and VoiceOver on iOS and macOS.
-    </p>
+    <h3>Colours and typography</h3>
+    <p>Helpshift's native experience demanded the SDK to be updated with the best practices of each platform.</p>
     <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales" class="mt-56 mb-24"/>
-    <p><b>Defining actions and labelling them right</b></p>
-    <p>Add explanation: Creating consistency across all actions</p>
     <br>
-  
+
     <p><b>Defining core user flows</b></p>
     <p>All the elements which don’t have to be part of the accessibility flow</p>
   </div>
