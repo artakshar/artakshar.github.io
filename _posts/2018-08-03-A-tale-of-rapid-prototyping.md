@@ -27,8 +27,10 @@ permalink: /:slug
       </p>
     </div>
   </div>
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
-  />
+  <div class="process-step image-container">
+    <img src="/assets/a-tale-of-rapid-prototyping/landing-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p>Marketing website for CustomerJet</p>
+  </div>
   <!-- UX Solution -->
   <div class="process-step small-container">
     <h3>UX Solution</h3>
