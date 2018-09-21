@@ -48,7 +48,7 @@ permalink: /:slug
   </div>
   <div class="process-step image-container">
     <img src="/assets/a-tale-of-rapid-prototyping/flow-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-    <p><b>Onboarding</b>: Showing upcoming integrations to create anticipation</p>
+    <p>We mapped out a quick and simple flow diagram out of the little conversations we had with internal and few external support teams</p>
   </div>
   <div class="process-step small-container">
     <h3>User flows</h3>

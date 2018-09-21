@@ -67,10 +67,6 @@ permalink: /:slug
       <li>Experiment with new sales and marketing channels</li>
     </ul>
   </div>
-  <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-    <p><b>Fullstory</b> showed why our engagement didn't not match our expectations</p>
-  </div>
   <!-- USER RESEARCH -->
   <div class="process-step small-container">
     <h3>User Research</h3>
@@ -79,6 +75,7 @@ permalink: /:slug
       <li>Remotely conducted UX testing</li>
       <li>Watched user sessions on Fullstory</li>
     </ul>
+    <br>
     <p>
       <b>Top takeaways from the research</b>
     </p>
@@ -88,10 +85,6 @@ permalink: /:slug
       <li>They carry subtle anxiety when you ask them to connect Facebook to any other tool. Most of their business came in
         from Facebook Ads. If an app were to cause a problem with Facebook, Facebook could block their Facebook page.</li>
     </ul>
-  </div>
-  <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-    <p><b>Wireframes and white board discussions</b></p>
   </div>
   <div class="process-step small-container">
     <h3>UX Solutions</h3>

@@ -1,3 +1,9 @@
 <header class="container">
-  <a href="/index.html" class="btn-link"><i class="zmdi zmdi-chevron-left"></i> &nbspBack to home</a>
+  {% if page.url != "/" %}
+    <a href="/index.html" class="btn-outline"><i class="zmdi zmdi-chevron-left"></i> &nbspBack to home</a>
+    <a href="mailto:akshar.patel.art@gmail.com" class="btn-outline">Contact me</a>
+  {% else %}
+    <a href="/process.html" class="btn-outline">My design process</a>
+    <a href="mailto:akshar.patel.art@gmail.com" class="btn-outline">Contact me</a>
+  {% endif %}
 </header>

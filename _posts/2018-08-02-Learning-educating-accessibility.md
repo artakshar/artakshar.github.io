@@ -14,8 +14,6 @@ permalink: /:slug
   </div>
 </section>
 <section id="content">
-  <img src="/assets/convertfly-making-messenger-marketing-simple/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
-  />
   <!-- INTRODUCTION SECTION -->
   <div id="introduction" class="process-step grid-of-two small-container">
     <div>
@@ -52,7 +50,10 @@ permalink: /:slug
     <p><b>Defining core user flows</b></p>
     <p>The elements which don’t have to be part of the accessibility flow. Each flows had to be drawn out and then strategic add labels and make elements part of accessibility flow.</p>
   </div>
-  <img src="/assets/learning-educating-accessibility/label.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  <div class="process-step image-container">
+    <img src="/assets/learning-educating-accessibility/label.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <p>Previous labels were not contextual therefore they didn't help people with Talkback feature</p>
+  </div>
   <div class="process-step">
     <h3>Educating fellow designers about accessibility</h3>
     <p>Helpshift had a design team of 6 product designers. To get inclusive mindsets we had to have equal knowledge of do’s and don’ts of accessibility. I was given the responsibility of creating awareness of the need to think about accessibility and how can we do our best to be more accessible.</p>
@@ -70,15 +71,15 @@ permalink: /:slug
   </div>
   <div class="process-step image-container">
     <img src="/assets/learning-educating-accessibility/process-3.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-    <p><b>Maintaing color contrasts</b>: Legible text contrast for all age groups</p>
+    <p><b>Maintain color contrasts</b>: Legible text contrast for all age groups</p>
   </div>
   <div class="process-step image-container">
     <img src="/assets/learning-educating-accessibility/process-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-    <p><b>Adding contextual labels</b>: Example taken from Helpshift Android SDK</p>
+    <p><b>Add contextual labels</b>: Example taken from Helpshift Android SDK</p>
   </div>
   <div class="process-step image-container">
     <img src="/assets/learning-educating-accessibility/process-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-    <p><b>Using system fonts</b>: This one was taken from Apple's HIG documentation</p>
+    <p><b>Use system fonts</b>: This one was taken from Apple's HIG documentation</p>
   </div>
   <div class="process-step">
     <h3>Takeaways and lessons learnt</h3>
@@ -88,7 +89,7 @@ permalink: /:slug
     <ul>
       <li>The need for accessibility at scale</li>
       <li>The current state of accessibility tools on Android, iOS & macOS</li>
-      <li>The engineering side of accessibility</li>
+      <li>The engineering aspects of accessibility</li>
     </ul>
   </div>
 </section>

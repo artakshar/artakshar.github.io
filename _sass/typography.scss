@@ -1,4 +1,4 @@
-$sans: "Fira Sans";
+$sans: system-ui;
 $serif: "Vollkorn";
 
 h1 {
@@ -33,7 +33,7 @@ h4 {
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -43,8 +43,8 @@ h6 {
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 a {

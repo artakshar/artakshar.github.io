@@ -3,6 +3,13 @@
   h1 {
     margin: 0 0 12px 0;
   }
+  a {
+    margin: 0 24px 0 0;
+  }
+  .actions {
+    display: flex;
+    margin: 24px 0 0 0;
+  }
 }
 
 // Portfolio section
@@ -19,6 +26,12 @@
   .image img {
     width: 50%;
   }
+  a {
+    text-decoration: underline;
+  }
+  a:hover {
+    color: $black-darker;
+  }
 }
 
 #about {
@@ -32,7 +45,6 @@
     font-family: $sans;
   }
   a {
-    color: $accent;
-    text-decoration: underline;
+    color: $link;
   }
 }
