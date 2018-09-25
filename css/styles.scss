@@ -3,43 +3,11 @@
 
 @import 'colors';
 @import 'typography';
+@import 'default';
 @import 'grid';
 @import 'button';
 @import 'landing';
 @import 'articles';
 @import 'header';
 @import 'footer';
-
-html {
-  font-family: $sans;
-  background: $background-gradient-reversed;
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  padding: 24px 0;
-  margin: 12px;
-  background: white;
-}
-
-// Header
-header {
-  padding: 8px 0;
-}
-
-// Margins
-.mb-56 {
-  margin-bottom: 56px;
-}
-
-.mb-24 {
-  margin-bottom: 24px;
-}
-
-.mt-56 {
-  margin-top: 56px;
-}
-
-.mt-24 {
-  margin-top: 24px;
-}
+@import 'responsive';

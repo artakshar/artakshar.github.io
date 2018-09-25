@@ -2,8 +2,8 @@ $sans: system-ui;
 $serif: "Vollkorn";
 
 h1 {
-  font-size: 56px;
-  line-height: 1.333;
+  font-size: 3em;
+  line-height: 1.2em;
   font-weight: 600;
   margin: 0;
   color: $black;
@@ -11,8 +11,8 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
-  line-height: 1.333;
+  font-size: 2.4em;
+  line-height: 1.2em;
   font-weight: normal;
   margin: 0;
   color: $black;
@@ -20,30 +20,30 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.4em;
   margin: 0;
   font-weight: 600;
   font-family: "Vollkorn";
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.4em;
   margin: 0;
   font-family: "Vollkorn";
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 1.2em;
   margin: 0;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 1.1em;
   margin: 0;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.1em;
   line-height: 1.5;
 }
 

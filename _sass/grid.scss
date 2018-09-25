@@ -1,11 +1,13 @@
 // Grid classes
 .grid-of-two {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 56px;
 }
 
 .grid-of-three {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 36px;
@@ -15,11 +17,13 @@
 
 // Container classes
 .container {
+  width: 100%;
   max-width: 1180px;
   margin: 0 auto;
 }
 
 .small-container {
+  width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }

@@ -1,0 +1,15 @@
+// Code for responsive
+
+@media (max-width: 640px) {
+  body {
+    margin: 0;
+    padding: 16px;
+  }
+  .grid-of-two {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    width: 100%;
+  }
+}
