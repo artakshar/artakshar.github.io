@@ -32,20 +32,20 @@ permalink: /:slug
   <img src="/assets/building-platform-for-social-proof/example.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
   />
   <!-- UX Solution -->
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>User persona and design challenge</h3>
     <p>
     Our target audience was marketing managers at mid-sized e-commerce. Top design challenge was to be intuitive, and easy to setup.
     </p>
   </div>
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>UX Solution</h3>
     <p>GrowthKit was designed as platform for the industry a marketer belongs to. One example of how this would impact the website is, the suggested widgets would differ for a travel website versus fashion website.</p>
     <br>
     <p>Another core experience was around embedding widgets on a webpage. For this we used the Editor component from our Component Library. With a little modifications we were ready to test out this new experience.</p>
   </div>
   <img src="/assets/building-platform-for-social-proof/solution-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>User research</h3>
     <p>Attended close to ~40 customer interviews and gather insights along with product owner.</p>
     <br>
@@ -57,7 +57,7 @@ permalink: /:slug
       <li>Marketing is stretched for resources and getting developers to set up these campaigns themselves is a hard task</li>
     </ul>
   </div>
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>Wireframes</h3>
     <p>We believe in getting feedback from potential users early on. Therefore, these wireframes were translated from pen and paper to mid-fidelity. This helped us with testing some of the UI elements along with the UX flow early.</p>
   </div>
@@ -84,6 +84,14 @@ permalink: /:slug
     <p>The interaction design for GrowthKit was influenced by our learning from Convertfly. On the similar lines, GrowthKit helped marketers set up different campaigns for increase sales at the different part of the customer journey. The majority of interaction work was around the setup and onboarding flow.
     </p>
   </div>
+
+  <div class="process-step mb-24">
+    <p><b>Design decision: </b>Spliting onboarding flow into steps</p>
+    <br>
+    <p>I split onboarding experience into three steps than one long form which I explored in the wireframing phase. Steps makes users show progress and increase chances of finish-up form.</p>
+    <br>
+    <img src="/assets/building-platform-for-social-proof/onboarding-solutions.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  </div>
   <div class="process-step image-container">
     <img src="/assets/building-platform-for-social-proof/onboarding-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p><b>Onboarding</b>: Capturing industry as a first and then product could adapt to that industry</p>
@@ -92,13 +100,14 @@ permalink: /:slug
     <img src="/assets/building-platform-for-social-proof/onboarding-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p><b>Onboarding</b>: Showing upcoming integrations to create anticipation</p>
   </div>
-  <!-- <div class="process-step small-container">
-    <p><b>Onboarding and Integrations</b></p>
-    <ul>
-      <li>Capturing industry as a first and then product could adapt to that industry</li>
-      <li>Showing upcoming integrations to create anticipation</li>
-    </ul>
-  </div> -->
+
+  <div class="process-step mt-56 mb-24">
+    <p><b>Design decision: </b>Adding previews inside the form</p>
+    <br>
+    <p>There were two solutions I looked at. First, adding preview for the product would be outside the form (most products don't show previews are not part of form) and second adding preview next to the form selection. Adding preview in the form helped with making it more connected to the form due to its close proximity to form.</p>
+    <br>
+    <img src="/assets/building-platform-for-social-proof/campaigns-solutions.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  </div>
   <div class="process-step image-container">
     <img src="/assets/building-platform-for-social-proof/campaign-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p><b>Campaigns</b>: The form on a card gains focus while everything is flatten with grey background</p>
@@ -107,16 +116,33 @@ permalink: /:slug
     <img src="/assets/building-platform-for-social-proof/campaign-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p><b>Campaigns</b>: Setting expectations right; Next button has the informs what's next to come</p>
   </div>
+
+  <div class="process-step mt-56 mb-24">
+    <p><b>Design decision: </b>Categorising campaigns based on recommended page</p>
+    <br>
+    <p>Each campaign are recommended for a particular part of the flow (like, homepage or checkout page). A tab approach would be work out well if each tab would have 3 or more campaigns. We had 3 to 5 campaigns therefore simply tagging each campaign made sense for a smaller pool of campaigns.</p>
+    <br>
+    <img src="/assets/building-platform-for-social-proof/homepage-solutions.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  </div>
   <div class="process-step image-container">
     <img src="/assets/building-platform-for-social-proof/widgets-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p><b>All widgets</b>: We suggest widgets based on the industry marketer selects in onboarding flow</p>
   </div>
   <div class="process-step image-container">
     <img src="/assets/building-platform-for-social-proof/widgets-3.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-    <p><b>All widgets</b>: Preview helps users understand widgets without investing efforts in setting them up</p>
+    <p><b>All widgets</b>: Tags help user learn where the widget would work the best</p>
   </div>
   <div class="process-step image-container">
     <img src="/assets/building-platform-for-social-proof/widgets-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
-    <p><b>All widgets</b>: Tags help user learn where the widget would work the best</p>
+    <p><b>All widgets</b>: Preview helps users understand widgets without investing efforts in setting them up</p>
+  </div>
+  <div class="process-step">
+    <h3>What's next?</h3>
+    <p>GrowthKit was not to be explored further as a separate brand. Instead this would be integrated with VWO (Visual Website Optimizer) and be part of Wingify brand. Next steps to this is,</p>
+    <ul>
+      <li>Understand and utitlise Wingify Design System to integrate GrowthKit smoothly into VWO</li>
+      <li>Discuss and align product goals with senior product managers at VWO</li>
+      <li>Collaborating with VWO engineering and design teams for execution</li>
+    </ul>
   </div>
 </section>
