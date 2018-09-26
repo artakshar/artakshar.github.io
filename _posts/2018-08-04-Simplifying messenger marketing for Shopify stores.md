@@ -58,7 +58,7 @@ permalink: /:slug
     <p><b>Older experience</b> was confusing to most of the Shopify store owners</p>
   </div>
   <!-- TARGET AUDIENCE -->
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>Target Audience</h3>
     <p>People with Shopify stores and those looking for new marketing channels. Two main goals of these users would be to,</p>
     <ul>
@@ -68,7 +68,7 @@ permalink: /:slug
     </ul>
   </div>
   <!-- USER RESEARCH -->
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>User Research</h3>
     <ul>
       <li>Talked to existing customers and interested people</li>
@@ -86,7 +86,7 @@ permalink: /:slug
         from Facebook Ads. If an app were to cause a problem with Facebook, Facebook could block their Facebook page.</li>
     </ul>
   </div>
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>UX Solutions</h3>
     <p>We split design solutions into three major features</p>
     <ol>

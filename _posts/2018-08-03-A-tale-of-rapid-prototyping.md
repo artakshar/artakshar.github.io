@@ -32,7 +32,7 @@ permalink: /:slug
     <p>Marketing website for CustomerJet</p>
   </div>
   <!-- UX Solution -->
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>UX Solution</h3>
     <p>
     CustomerJet captured the user’s journey and rendered it as a video. This video would be attached to the customer conversations and this helped support teams understand why a support ticket was created. The last version of CustomerJet worked with Intercom, Zendesk and independently.
@@ -42,7 +42,7 @@ permalink: /:slug
     <img src="/assets/a-tale-of-rapid-prototyping/solution.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p><b>CustomerJet</b>: CustomerJet was designed to be part of existing flow of support engineers</p>
   </div>
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>User research</h3>
     <p>We locked down the product’s direction toward support teams. Since this project was expected to get to market quickly, I conducted interviews and coffee talks with in-house support engineers.
     Questions would be around what’s their daily routine like and what their toolset.
@@ -52,7 +52,7 @@ permalink: /:slug
     <img src="/assets/a-tale-of-rapid-prototyping/flow-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p>We mapped out a quick and simple flow diagram out of the little conversations we had with internal and few external support teams</p>
   </div>
-  <div class="process-step small-container">
+  <div class="process-step">
     <h3>User flows</h3>
     <p>With a decent knowledge of users and insights gathered by product team, we went ahead with whiteboarding solutions with folks from engineering team. From whiteboard solutions to I headed to drawing user flows so that we've got decent understanding of how to not disrupt support team's work flow.</p>
   </div>
