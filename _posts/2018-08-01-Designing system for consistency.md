@@ -98,12 +98,22 @@ permalink: /:slug
     <img src="/assets/designing-system-for-consistency/devdocs-1.png" alt="Developer docs for Helpshift SDK"/>
     <p>Developer documentations were updated with latest design customisations</p>
   </div>
-  <div class="process-step">
-    <h3>Impact of this exercise</h3>
-    <ul>
-      <li>Design and engineering collaboration was easier with UI elements was documented along with its usage</li>
-      <li>Existing designs were now consistent with the native UI across all SDKs</li>
-      <li>Components now had more customisations which means more control over design for our customers</li>
-    </ul>
+  <div class="grid-of-two small-container">
+    <div class="process-step">
+      <h3>Impact of this exercise</h3>
+      <ul>
+        <li>Design and engineering collaboration was easier with UI elements was documented along with its usage</li>
+        <li>Existing designs were now consistent with the native UI across all SDKs</li>
+        <li>Components now had more customisations which means more control over design for our customers</li>
+      </ul>
+    </div>
+    <div class="process-step">
+      <h3>What's next?</h3>
+      <ul>
+        <li>Adding UI animations as part of the style guide</li>
+        <li>Writing advanced guidelines for UX copy across SDK and dashboard</li>
+        <li>Exporting this style guide to Invision Craft Library for smoother sharing (Now Sketch Library)</li>
+      </ul>
+    </div>
   </div>
 </section>

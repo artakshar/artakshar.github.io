@@ -92,24 +92,29 @@ permalink: /:slug
     <img src="/assets/a-tale-of-rapid-prototyping/chrome-5.png" alt="Search functionailty in the Chrome extension"/>
     <p>Sometimes chrome extension would not load the sessions, therefore, we added a way to search for sessions by entering a Visitor ID. This ID would be attached to the ticket as a custom field.</p>
   </div>
-  <div class="process-step small-container">
-    <h3>UI Implementation</h3>
-    <div class="grid-of-two">
-      <div class="process-step">
-        <p><b>Tasks involved</b></p>
-        <ul>
-          <li>Writing HTML over AngularJS and ReactJS</li>
-          <li>Styling using SASS</li>
-        </ul>
-      </div>
-      <div class="process-step">
-        <p><b>Lessons learnt</b></p>
-        <ul>
-          <li>Working with Chrome Extensions and Chrome browser APIs</li>
-          <li>Played around with AngularJS on Chrome extension and ReactJS for web app</li>
-          <li>Writing CSS accelerated the hand-off process</li>
-        </ul>
-      </div>
+  <div class="grid-of-two small-container">
+    <div class="process-step">
+      <h3>UI Implementation</h3>
+      <p><b>Tasks involved</b></p>
+      <ul>
+        <li>Writing HTML over AngularJS and ReactJS</li>
+        <li>Styling using SASS</li>
+      </ul>
+      <br>
+      <p><b>Lessons learned while UI development</b></p>
+      <ul>
+        <li>Working with Chrome Extensions and Chrome browser APIs</li>
+        <li>Played around with AngularJS on Chrome extension and ReactJS for web app</li>
+        <li>Writing CSS accelerated the hand-off process</li>
+      </ul>
+    </div>
+    <div class="process-step">
+      <h3>What's next?</h3>
+      <p>
+      Designing a dashboard experience for specific industry, such as e-commerce and travel. This demands for advanced features like, tagging sessions and sorting sessions with industry specifics.
+      <br><br>
+      CustomerJet was shutdown at end of 2017 due to, longer sales cycles and failing to prove enough value in the market.
+      </p>
     </div>
   </div>
 </section>

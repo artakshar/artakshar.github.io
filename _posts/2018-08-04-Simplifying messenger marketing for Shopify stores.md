@@ -133,11 +133,11 @@ permalink: /:slug
       </ul>
     </div>
     <div class="process-step">
-      <h3>My role in this project</h3>
+      <h3>What's next?</h3>
       <ul>
-        <li>UX / Product design</li>
-        <li>Participated in research - interviews & user recordings</li>
-        <li>Occasionally did UI development</li>
+        <li>Talk to more customers and getting feedback on the product</li>
+        <li>Work on adding more campaigns without making decision making complex</li>
+        <li>Adding more control over each campaign, for example, sending messages only during business hours</li>
       </ul>
     </div>
   </div>

@@ -79,15 +79,24 @@ permalink: /:slug
     <img src="/assets/learning-educating-accessibility/process-2.png" alt="Font sizing recommended by operating systems"/>
     <p><b>Use system fonts</b>: This one was taken from Apple's HIG documentation</p>
   </div>
-  <div class="process-step">
-    <h3>Takeaways and lessons learnt</h3>
-    <p>I found this project interesting for the reason there was so much to learn about peripherals of design and reading through 100 pages of documents to learn about best practices.</p>
-    <br>
-    <p><b>Things I learned</b></p>
-    <ul>
-      <li>The need for accessibility at scale</li>
-      <li>The current state of accessibility tools on Android, iOS & macOS</li>
-      <li>The engineering aspects of accessibility</li>
-    </ul>
+  <div class="grid-of-two small-container">
+    <div class="process-step">
+      <h3>Takeaways and lessons learnt</h3>
+      <p>I found this project interesting for the reason there was so much to learn about peripherals of design and reading best practices and industry standards of accessibility.</p>
+      <br>
+      <p><b>Things I learned</b></p>
+      <ul>
+        <li>The need for accessibility at scale</li>
+        <li>The current state of accessibility tools on Android, iOS & macOS</li>
+        <li>The engineering aspects of accessibility</li>
+      </ul>
+    </div>
+    <div class="process-step">
+      <h3>What's next?</h3>
+      <ul>
+        <li>Building features and interactions with accessibility in the design process</li>
+        <li>Complying with the accessibility standards for all future platforms</li>
+      </ul>
+    </div>
   </div>
 </section>
