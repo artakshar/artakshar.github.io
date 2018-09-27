@@ -18,7 +18,6 @@ permalink: /:slug
     <img src="/assets/convertfly-making-messenger-marketing-simple/splash-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p><b>Convertfly</b> is a Messenger marketing app built for Shopify</p>
   </div>
-  <!-- INTRODUCT SECTION -->
   <div id="introduction" class="process-step grid-of-two small-container">
     <div>
       <h3>About Convertfly</h3>
@@ -57,7 +56,6 @@ permalink: /:slug
     <img src="/assets/convertfly-making-messenger-marketing-simple/splash-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
     <p><b>Older experience</b> was confusing to most of the Shopify store owners</p>
   </div>
-  <!-- TARGET AUDIENCE -->
   <div class="process-step">
     <h3>Target Audience</h3>
     <p>People with Shopify stores and those looking for new marketing channels. Two main goals of these users would be to,</p>
@@ -67,7 +65,6 @@ permalink: /:slug
       <li>Experiment with new sales and marketing channels</li>
     </ul>
   </div>
-  <!-- USER RESEARCH -->
   <div class="process-step">
     <h3>User Research</h3>
     <ul>

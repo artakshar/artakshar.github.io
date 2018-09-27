@@ -14,7 +14,6 @@ permalink: /:slug
   </div>
 </section>
 <section id="content">
-  <!-- INTRODUCTION SECTION -->
   <div id="introduction" class="process-step grid-of-two small-container">
     <div>
       <h3>About Helpshift</h3>
@@ -32,7 +31,6 @@ permalink: /:slug
   </div>
   <img src="/assets/learning-educating-accessibility/landing.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
   />
-  <!-- UX Solution -->
   <div class="process-step">
     <h3>Adding accessibility to all our existing SDKs</h3>
     <p>

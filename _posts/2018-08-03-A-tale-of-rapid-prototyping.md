@@ -14,7 +14,6 @@ permalink: /:slug
   </div>
 </section>
 <section id="content">
-  <!-- INTRODUCTION SECTION -->
   <div id="introduction" class="process-step grid-of-two small-container">
     <div>
       <h3>About CustomerJet</h3>
