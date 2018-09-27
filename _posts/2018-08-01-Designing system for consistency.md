@@ -29,7 +29,7 @@ permalink: /:slug
       </ul>
     </div>
   </div>
-  <img src="/assets/learning-educating-accessibility/landing.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  <img src="/assets/learning-educating-accessibility/landing.png" alt="Landing page for Helpshift"/>
   <div class="process-step">
     <h3>Designing a system for consistency</h3>
     <p>
@@ -47,7 +47,7 @@ permalink: /:slug
     <p>Helpshift's native experience demanded the SDK to be updated with the best practices of each platform. With that in mind, we were using the color palette recommended by Material design (Android) and Human Interface Guidelines for iOS, and macOS.</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/designing-system-for-consistency/colors-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/designing-system-for-consistency/colors-1.png" alt="Color palette in Helpshift style guide"/>
     <p>The original sketch file contained more detailed colour palette with various shades ranging from light backgrounds to dark accented text</p>
   </div>
   <div class="process-step">
@@ -57,7 +57,7 @@ permalink: /:slug
     <p>Before a central document, design team shared Sketch files of projects and picked up UI elements from these. This had caused several inconsistencies in design, such as, several greys, paddings, and margins.</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/designing-system-for-consistency/elements-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/designing-system-for-consistency/elements-1.png" alt="UI components existing in Sketch"/>
     <p>The Sketch file was shared via Confluence</p>
   </div>
   <div class="process-step">
@@ -74,7 +74,7 @@ permalink: /:slug
     </ul>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/designing-system-for-consistency/documents-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/designing-system-for-consistency/documents-1.png" alt="UI components preview in Sketch and Confluence"/>
     <p>All master Sketch file, color palette and components were documented on Confluence</p>
   </div>
   <div class="process-step">
@@ -85,7 +85,7 @@ permalink: /:slug
     </p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/designing-system-for-consistency/writing-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/designing-system-for-consistency/writing-1.png" alt="Screenshot of Google Material Guideline and MailChimp's Voice and Tone"/>
     <p>Documentation done right by Google and MailChimp</p>
   </div>
   <div class="process-step">
@@ -95,7 +95,7 @@ permalink: /:slug
     The support and success team closed several customisation requests with this update to developer docs.</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/designing-system-for-consistency/devdocs-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/designing-system-for-consistency/devdocs-1.png" alt="Developer docs for Helpshift SDK"/>
     <p>Developer documentations were updated with latest design customisations</p>
   </div>
   <div class="process-step">

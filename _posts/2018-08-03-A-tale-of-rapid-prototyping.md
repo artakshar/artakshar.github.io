@@ -27,7 +27,7 @@ permalink: /:slug
     </div>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/landing-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/landing-1.png" alt="Marketing website for CustomerJet"/>
     <p>Marketing website for CustomerJet</p>
   </div>
   <!-- UX Solution -->
@@ -38,7 +38,7 @@ permalink: /:slug
     </p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/solution.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/solution.png" alt="Mockups of CustomerJet UI"/>
     <p><b>CustomerJet</b>: CustomerJet was designed to be part of existing flow of support engineers</p>
   </div>
   <div class="process-step">
@@ -48,7 +48,7 @@ permalink: /:slug
     </p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/flow-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/flow-1.png" alt="Workflow of a support engineer"/>
     <p>We mapped out a quick and simple flow diagram out of the little conversations we had with internal and few external support teams</p>
   </div>
   <div class="process-step">
@@ -56,7 +56,7 @@ permalink: /:slug
     <p>With a decent knowledge of users and insights gathered by product team, we went ahead with whiteboarding solutions with folks from engineering team. From whiteboard solutions to I headed to drawing user flows so that we've got decent understanding of how to not disrupt support team's work flow.</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/userflow-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/userflow-1.png" alt="User flow diagram talking about initial flow for CustomerJet"/>
     <p><b>Userflow done on Sketch</b>: Lemonade was the beta project name and later rebranded as CustomerJet</p>
   </div>
   <div class="process-step">
@@ -73,23 +73,23 @@ permalink: /:slug
     <p>Our product was designed for support teams. And top priority of support teams were to solve tickets and were measured against how many tickets are solved under specific time. For few cases, they needed technical debugging tool which provides console errors. CustomerJet was a product for these few cases.</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/chrome-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/chrome-1.png" alt="List of all sessions in the chrome extension"/>
     <p><b>Session list for a user</b>: CustomerJet would share a list of user sessions. Each session used timestamp as the title. Support engineer could see which session had more errors to start debugging.</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/chrome-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/chrome-2.png" alt="List of errors in a session sorted by webpages"/>
     <p><b>Error in a session</b>: Before watching a session, support engineers could take a look at errors in the session. If it seems like a known error they could reply back immediately.</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/chrome-3.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/chrome-3.png" alt="Session list inside the session player"/>
     <p><b>Session list in session player</b>: We added session list in the session player for cases when support engineer has to head to next sessions while debugging</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/chrome-4.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/chrome-4.png" alt="Bug list inside the session player"/>
     <p><b>Bugs list in session player</b>: Each session could have different pages therefore each error has been sorted thorugh pages within the session player</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/a-tale-of-rapid-prototyping/chrome-5.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/a-tale-of-rapid-prototyping/chrome-5.png" alt="Search functionailty in the Chrome extension"/>
     <p>Sometimes chrome extension would not load the sessions, therefore, we added a way to search for sessions by entering a Visitor ID. This ID would be attached to the ticket as a custom field.</p>
   </div>
   <div class="process-step small-container">

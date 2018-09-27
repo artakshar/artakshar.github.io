@@ -15,7 +15,7 @@ permalink: /:slug
 </section>
 <section id="content">
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/splash-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/splash-1.png" alt="Landing page for Convertfly"/>
     <p><b>Convertfly</b> is a Messenger marketing app built for Shopify</p>
   </div>
   <div id="introduction" class="process-step grid-of-two small-container">
@@ -53,7 +53,7 @@ permalink: /:slug
     </div>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/splash-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/splash-2.png" alt="Old Convertfly UI"/>
     <p><b>Older experience</b> was confusing to most of the Shopify store owners</p>
   </div>
   <div class="process-step">
@@ -95,31 +95,31 @@ permalink: /:slug
     </ol>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/tools-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/tools-1.png" alt="Homepage of Convertfly app with simple campaigns"/>
     <p><b>Homepage</b>: Providing one-click campaigns (almost) instead of custom campaigns</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/tools-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/tools-2.png" alt="Onboarding notifications that existed in Convertfly"/>
     <p><b>Homepage for first time user</b>: Onboarding notifications were right in the explore page where users could go check out campaigns and then wrap up the setup</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/campaign-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/campaign-1.png" alt="Campaign editor for subscriber widgets"/>
     <p><b>Campaign editor for subscriber widgets</b>: We added defaults for each campaign to make it almost easy to get started with Converfly</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/campaign-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/campaign-2.png" alt="Campaign editor for Messenger campaigns"/>
     <p><b>Campaign editor for Messenger campaigns</b>: Laid down messages left to right to match most LTR readers' expectations of sequence</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/notification-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/notification-1.png" alt="Layout for Notification and campaign cards"/>
     <p><b>Layout for Notification and campaign cards</b>: This layout could accomodate most of our notifications and onboarding messages</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/notification-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/notification-2.png" alt="Notification cards in Convertfly home"/>
     <p><b>Notification cards</b>: Each notification had a title, description and an icon and CTA were omitted for non-actionable messages</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/convertfly-making-messenger-marketing-simple/styleguide-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/convertfly-making-messenger-marketing-simple/styleguide-1.png" alt="Behind the scenes picture of group of Sketch components"/>
     <p><b>Behind the scenes</b>: Most of the reusable elements were converted to adaptive Sketch symbols</p>
   </div>
   <div class="grid-of-two small-container">

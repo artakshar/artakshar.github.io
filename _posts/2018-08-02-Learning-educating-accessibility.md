@@ -29,7 +29,7 @@ permalink: /:slug
       </ul>
     </div>
   </div>
-  <img src="/assets/learning-educating-accessibility/landing.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"
+  <img src="/assets/learning-educating-accessibility/landing.png" alt="Landing page for Helpshift"
   />
   <div class="process-step">
     <h3>Adding accessibility to all our existing SDKs</h3>
@@ -37,7 +37,7 @@ permalink: /:slug
     Accessibility means all text is readable, all elements have the right labels and all the user flows are usable by all. I referred to W3C Compliance for the basic requirements and recommendations for font size and contrast ratio.
     </p>
   </div>
-  <img src="/assets/learning-educating-accessibility/platforms.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+  <img src="/assets/learning-educating-accessibility/platforms.png" alt="Helpshift was designed for Android, iOS, macOS and Windows"/>
   <div class="process-step">
     <h3>Working with Talkback & VoiceOver</h3>
     <p>Most of the devices today have an accessibility tool which reads out a description of everything happening on your screen. You get Talkback on Android and VoiceOver on iOS and macOS.
@@ -49,7 +49,7 @@ permalink: /:slug
     <p>The elements which don’t have to be part of the accessibility flow. Each flows had to be drawn out and then strategic add labels and make elements part of accessibility flow.</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/learning-educating-accessibility/label.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/learning-educating-accessibility/label.png" alt="Adding correct labels for UI elements"/>
     <p>Previous labels were not contextual therefore they didn't help people with Talkback feature</p>
   </div>
   <div class="process-step">
@@ -68,15 +68,15 @@ permalink: /:slug
     </ul>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/learning-educating-accessibility/process-3.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/learning-educating-accessibility/process-3.png" alt="Font color with complying with W3C web standards"/>
     <p><b>Maintain color contrasts</b>: Legible text contrast for all age groups</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/learning-educating-accessibility/process-1.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/learning-educating-accessibility/process-1.png" alt="Contextual labels for UI elements"/>
     <p><b>Add contextual labels</b>: Example taken from Helpshift Android SDK</p>
   </div>
   <div class="process-step image-container">
-    <img src="/assets/learning-educating-accessibility/process-2.png" alt="Convertfly helps Shopify stores with various widgets for recovering sales"/>
+    <img src="/assets/learning-educating-accessibility/process-2.png" alt="Font sizing recommended by operating systems"/>
     <p><b>Use system fonts</b>: This one was taken from Apple's HIG documentation</p>
   </div>
   <div class="process-step">
