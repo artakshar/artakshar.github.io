@@ -1,6 +1,6 @@
 // Code for responsive
 
-@media (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 640px) {
   body {
     margin: 0;
     padding: 16px;
@@ -9,6 +9,15 @@
     grid-template-columns: 1fr;
   }
 
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1180px) {
+  body {
+    padding: 16px 24px;
+  }
   img {
     width: 100%;
   }
