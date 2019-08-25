@@ -1,5 +1,5 @@
 #hero {
-  padding: 96px 0;
+  padding: 8em 0;
   h1 {
     margin: 0 0 12px 0;
   }
@@ -31,20 +31,5 @@
   }
   a:hover {
     color: $black-darker;
-  }
-}
-
-#about {
-  margin: 96px;
-  h4 {
-    margin: 0;
-    max-width: 720px;
-    font-size: 20px;
-    line-height: 1.56;
-    font-weight: 400;
-    font-family: $sans;
-  }
-  a {
-    color: $link;
   }
 }
