@@ -1,35 +1,35 @@
 $sans: system-ui;
-$serif: "Vollkorn";
+$serif: system-ui;
 
 h1 {
-  font-size: 3em;
+  font-size: 3.6em;
   line-height: 1.2em;
   font-weight: 600;
   margin: 0;
   color: $black;
-  font-family: "Vollkorn";
+  font-family: $serif;
 }
 
 h2 {
   font-size: 2.4em;
   line-height: 1.2em;
-  font-weight: normal;
+  // font-weight: normal;
   margin: 0;
   color: $black;
-  font-family: "Vollkorn";
+  font-family: $serif;
 }
 
 h3 {
   font-size: 1.4em;
   margin: 0;
   font-weight: 600;
-  font-family: "Vollkorn";
+  font-family: $serif;
 }
 
 h4 {
   font-size: 1.4em;
   margin: 0;
-  font-family: "Vollkorn";
+  font-family: $serif;
 }
 
 h5 {

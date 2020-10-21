@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Simplifying messenger marketing for Shopify stores"
-date: 2018-08-26 10:15:00 -0600
+date: 2018-08-28 10:15:00 -0600
 brand: "Convertfly"
 permalink: /:slug
 ---

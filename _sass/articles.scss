@@ -1,9 +1,8 @@
 #hero {
-  .container {
+  .small-container, .container {
     h3 {
-      font-family: 'Fira sans';
       font-weight: normal;
-      margin: 12px 0 0 0;
+      margin: 16px 0 0 0;
     }
   }
 }
@@ -16,6 +15,14 @@
   border-radius: 4px;
   background: red;
   z-index: 9;
+}
+
+//Video styling
+video {
+  max-width: 1180px;
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 100%;
 }
 
 // Content section
@@ -36,6 +43,11 @@ section#content {
       font-size: 0.9em;
       line-height: 1.5em;
       text-align: center;
+    }
+
+    img {
+      max-width: 1180px;
+      border-radius: 8px;
     }
   }
 
@@ -78,4 +90,9 @@ section#content {
       line-height: 1.5;
     }
   }
+}
+
+//Short hands for articles
+.mb-24 {
+  margin-bottom: 24px;
 }
