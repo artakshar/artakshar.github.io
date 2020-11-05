@@ -71,7 +71,6 @@ permalink: /:slug
   </div>
   <div class="process-step image-container">
     <video src="/assets/gm/GM-2.mp4" autoplay muted loop class="mb-24"></video>
-    <p>Add caption here...</p>
   </div>
   <div class="process-step">
     <h3>Break monthly repayments into daily deductions</h3>
