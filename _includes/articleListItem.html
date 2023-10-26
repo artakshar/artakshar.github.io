@@ -1,4 +1,9 @@
 <div class="portfolio-item">
-  <h3><a href={{ post.url }}> {{ post.title }} </a></h3>
-  <h6> {{ post.brand }} </h6>
+
+  <div class="p-content">
+    <h3>{{ post.title }}</h3>
+    <p class="subtitle"> {{ post.brand }} </p>
+    <p> {{post.description}} </p>
+    <a class="btn-primary" href={{ post.url }}> Read more</a>
+  </div>
 </div>

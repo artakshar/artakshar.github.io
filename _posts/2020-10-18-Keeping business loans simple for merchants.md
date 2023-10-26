@@ -4,6 +4,7 @@ title: "Keeping business loans simple for merchants"
 date: 2020-10-14 23:28:00 -0600
 brand: "Gojek"
 logo: "./assets/landing/logo-gojek.svg"
+description: "This is the most-told story of mine. Our PayLater users were at a baseline satisfaction and we tried to elevate it further. We discovered our initial mistakes, validate what was wrong, and tested our approach."
 permalink: /:slug
 ---
 

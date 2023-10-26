@@ -3,6 +3,7 @@ layout: post
 title: "Building a platform to increase sales"
 date: 2018-08-26 10:15:00 -0600
 brand: "GrowthKit"
+description: "This is the most-told story of mine. Our PayLater users were at a baseline satisfaction and we tried to elevate it further. We discovered our initial mistakes, validate what was wrong, and tested our approach."
 permalink: /:slug
 ---
 

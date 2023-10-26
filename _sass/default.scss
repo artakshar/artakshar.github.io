@@ -1,34 +1,52 @@
 
 html {
   font-family: $sans;
-  background: $background-gradient-reversed;
+  background: $background;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
-  padding: 24px 0;
-  margin: 12px;
-  background: white;
+  margin: 0;
 }
 
 // Header
 header {
-  padding: 8px 0;
+  padding: 2.5rem 0;
 }
 
 // Margins
 .mb-56 {
-  margin-bottom: 56px !important;
+  margin-bottom: 3.5rem !important;
+}
+
+.mb-40 {
+  margin-bottom: 2.5rem !important;
 }
 
 .mb-24 {
-  margin-bottom: 24px !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .mt-56 {
-  margin-top: 56px !important;
+  margin-top: 3.5rem !important;
+}
+
+.mt-16 {
+  margin-top: 1rem !important;
 }
 
 .mt-24 {
-  margin-top: 24px !important;
+  margin-top: 1.5rem !important;
+}
+
+.mt-40 {
+  margin-top: 2.5rem;
+}
+
+.mt-80 {
+  margin-top: 5rem;
+}
+
+.all-caps {
+  text-transform: uppercase;
 }

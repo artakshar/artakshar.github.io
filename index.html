@@ -3,15 +3,29 @@ title: Hello world
 layout: landing
 ---
 
-<section id="hero">
-  <div class="container">
-    <h1>I'm Akshar Patel, a product designer leading the design team at Multiplier.</h1>
-  </div>
-</section>
-<section id="portfolio">
-  <div class="container">
-    {% for post in site.posts %}
-      {% include articleListItem.html %}
-    {% endfor %}
-  </div>
-</section>
+
+  <section id="landing-hero">
+    {% include header.html %}
+    <div class="container">
+      <h1>I’m Akshar Patel, leading product designers at Multiplier.</h1>
+      <h4>Passionately dedicated to crafting high-performance lean design teams, fostering a culture anchored in unwavering principles. I thrive on the art of building products with an unyielding bias towards action.</h4>
+    </div>
+    <canvas id="gradient-canvas" data-transition-in />
+
+  </section>
+  <section id="portfolio">
+    <h6>RECENT WORK</h6>
+    <div class="container">
+      {% for post in site.posts limit:4 %}
+        {% include articleListItem.html %}
+      {% endfor %}
+    </div>
+    <h6 class="mt-80 mb-24">MUCH OLDER WORK</h6>
+    <div class="blog-grid">
+      {% for post in site.posts offset:4 %}
+        {% include blogGridItem.html %}
+      {% endfor %}
+    </div>
+  </section>
+
+  

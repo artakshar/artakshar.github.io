@@ -1,4 +1,39 @@
 header {
   display: flex;
+  width: 100%;
+  max-width: 1140px;
   justify-content: space-between;
+  margin: 0 auto;
+
+
+  .inverted {
+    color: white;
+  }
+}
+
+header .center-nav-items {
+  display: flex;
+  column-gap: 0.5rem;
+
+ .nav-item {
+    padding: 8px 16px;
+    display: flex;
+    font-weight: 600;
+    color: white;
+    opacity: 0.5;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .nav-item:hover {
+    opacity: 1;
+  }
+
+  .nav-item .icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.5rem;
+    filter: invert(1);
+  }
+  
 }

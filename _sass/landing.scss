@@ -1,7 +1,21 @@
-#hero {
-  padding: 8em 0;
+#landing-hero {
+  position: relative;
+  padding: 0 0 20rem 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: none;
+
+  .container {
+    margin-top: 12rem;
+    max-width: 794px;
+  }
   h1 {
-    margin: 0 0 12px 0;
+    color: #ffffff;
+    margin: 0 0 1rem 0;
+  }
+  h4 {
+    max-width: 640px;
   }
   a {
     margin: 0 24px 0 0;
@@ -12,24 +26,119 @@
   }
 }
 
+// Gradient background
+#gradient-canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  --gradient-color-1: #333333;
+  --gradient-color-2: #1a1a1a;
+  --gradient-color-3: #1a1a1a;
+  --gradient-color-4: #1a1a1a;
+}
+
 // Portfolio section
+#portfolio {
+  margin-top: -8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portfolio > .container {
+  box-sizing: border-box;
+  max-width: 800px;
+}
+
+#portfolio > h6 {
+  margin-bottom: 1.25rem;
+  color: $secondary;
+  width: 100%;
+  text-align: center;
+}
+
 .portfolio-item {
-  margin: 0 0 48px 0;
-  h6 {
+  margin: 1.25rem auto 0 auto;
+  padding: 2.5rem;
+  display: flex;
+  border-radius: 0.75rem;
+  background-color: white;
+  border: $separator solid 1px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  flex-direction: row;
+  column-gap: 2rem;
+  align-items: center;
+  .subtitle {
     margin: 4px 0 0 0;
-    font-weight: normal;
+    font-weight: 600;
     color: $secondary;
   }
-  .portfolio-content {
-    width: 50%;
-  }
-  .image img {
-    width: 50%;
+  .p-content {
+    width: 100%;
   }
   a {
-    text-decoration: underline;
+    display: inline-block;
+    width: auto;
+    margin-top: 2rem;
   }
-  a:hover {
-    color: $link;
+}
+
+
+// Blog section
+.blog-grid {
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: center;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  padding: 0 2.5rem;
+  margin-bottom: 4rem;
+
+  h6 {
+    color: $secondary;
+    margin-bottom: 0rem;
   }
+
+  a {
+    margin-top: 1.5rem;
+    display: inline-block;
+  }
+}
+
+.blog-item {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $separator-dark;
+  border-radius: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+// // Footer section
+// footer#quote {
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+//   margin: 0 auto;
+//   padding: 8rem 0 8rem 0;
+//   text-align: center;
+//   width: 100%;
+//   .q-author {
+//     color: $secondary;
+//     font-weight: 500;
+//   }
+// }
+
+marquee {
+  color: $secondary;
+  padding: 4px 0;
 }

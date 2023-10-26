@@ -3,6 +3,7 @@ layout: post
 title: "Simplifying messenger marketing for Shopify stores"
 date: 2018-08-28 10:15:00 -0600
 brand: "Convertfly"
+description: "This is the most-told story of mine. Our PayLater users were at a baseline satisfaction and we tried to elevate it further. We discovered our initial mistakes, validate what was wrong, and tested our approach."
 permalink: /:slug
 ---
 
@@ -10,7 +11,7 @@ permalink: /:slug
 <section id="hero">
   <div class="container">
     <h2>Simplifying messenger marketing for Shopify stores</h2>
-    <h3>Convertfly</h3>
+    <h4>Convertfly</h4>
   </div>
 </section>
 <section id="content">

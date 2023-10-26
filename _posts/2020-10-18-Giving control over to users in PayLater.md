@@ -4,6 +4,7 @@ title: "Giving control over to users in PayLater"
 date: 2020-10-15 00:28:00 -0600
 brand: "Gojek"
 logo: "./assets/landing/logo-gojek.svg"
+description: "This is the most-told story of mine. Our PayLater users were at a baseline satisfaction and we tried to elevate it further. We discovered our initial mistakes, validate what was wrong, and tested our approach."
 permalink: /:slug
 ---
 
@@ -11,7 +12,7 @@ permalink: /:slug
 <section id="hero">
   <div class="small-container">
     <h2>Giving control over to users in PayLater</h2>
-    <h3>Gojek</h3>
+    <h3>Gojek </h3>
   </div>
 </section>
 <section id="content">
@@ -19,6 +20,7 @@ permalink: /:slug
     <div>
       <h3>About Gojek & PayLater</h3>
       <p>Gojek is a super app with services like mobility, food delivery, and digital payments. PayLater is a credit product by Gojek which allows users to order food, rides, and do digital payments. Much like a credit card, users can repay all the dues right before its due date.</p>
+      <p class="mt-16">My role - lead product and interaction design</p>
     </div>
     <div>
       <h3>UX Problems</h3>
@@ -116,8 +118,3 @@ permalink: /:slug
     </div>
   </div>
 </section>
-<script>
-  window.addEventListener('load', (event) => {
-    console.log("loaded.");
-  });
-</script>

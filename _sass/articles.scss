@@ -1,8 +1,28 @@
+body {
+  // background-color: white;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
 #hero {
+
+  padding: 8rem 0;
+
   .small-container, .container {
-    h3 {
-      font-weight: normal;
-      margin: 16px 0 0 0;
+    // text-align: center;
+    width: 100%;
+    max-width: 960px;
+
+    
+    h4 {
+      color: $secondary;
+      margin: 1rem 0 0 0;
     }
   }
 }
@@ -40,7 +60,6 @@ section#content {
     flex-direction: column;
 
     p, b {
-      font-size: 0.9em;
       line-height: 1.5em;
       text-align: center;
     }
@@ -56,36 +75,35 @@ section#content {
     margin: 0;
     max-width: 640px;
     b {
-      margin: 0 0 12px 0;
+      margin: 0 0 0.75rem 0;
       font-weight: 600;
       color: $black;
     }
   }
   h3 {
-    margin: 56px 0 12px 0;
+    margin: 3.5rem 0 0.75rem 0;
   }
 
   // UX Problems
   .lists {
     .list-item {
-      margin: 0 0 24px 0;
+      margin: 0 0 1.5rem 0;
       p {
-        font-size: 1.1em;
         color: $secondary;
       }
     }
     .list-item>p {
-      margin: 0 0 8px 0;
+      margin: 0 0 0.5rem 0;
     }
   }
 
   // Lists for persona
   .process-step {
-    margin: 0 0 56px 0;
+    margin: 0 0 3.5rem 0;
     ul li,
     ol li {
-      font-size: 1.1em;
-      margin: 0 0 12px 0;
+      font-size: 1em;
+      margin: 0 0 0.75rem 0;
       max-width: 600px;
       line-height: 1.5;
     }

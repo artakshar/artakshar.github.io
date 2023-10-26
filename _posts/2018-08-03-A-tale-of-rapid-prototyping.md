@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "A tale of rapid prototyping"
+title: "A short tale about rapid prototyping"
 date: 2018-08-26 10:15:00 -0600
-brand: "CustomerJet"
+brand: "Rapid prototyping"
+description: "CustomerJet helped customer support and experience teams reduce the resolution time and resolve critical conversations faster."
 permalink: /:slug
 ---
 
