@@ -3,7 +3,7 @@ layout: post
 title: "Building a platform to increase sales"
 date: 2018-08-26 10:15:00 -0600
 brand: "GrowthKit"
-description: "This is the most-told story of mine. Our PayLater users were at a baseline satisfaction and we tried to elevate it further. We discovered our initial mistakes, validate what was wrong, and tested our approach."
+description: "GrowthKit, a revenue-boosting platform, leveraged customer insights like sales per week and trending products. Targeting mid-sized e-commerce companies with $1 million in annual revenue, initial tests yielded an impressive 15% average conversion rate uplift."
 permalink: /:slug
 ---
 

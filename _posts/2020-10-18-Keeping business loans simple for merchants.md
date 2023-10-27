@@ -4,7 +4,7 @@ title: "Keeping business loans simple for merchants"
 date: 2020-10-14 23:28:00 -0600
 brand: "Gojek"
 logo: "./assets/landing/logo-gojek.svg"
-description: "This is the most-told story of mine. Our PayLater users were at a baseline satisfaction and we tried to elevate it further. We discovered our initial mistakes, validate what was wrong, and tested our approach."
+description: "GoModal helped small mom and pop restaurants to apply for cash loans. This project talks about problems discovered with MVP and how designing solutions beyond interface helped boast loan application rate and repayment rate."
 permalink: /:slug
 ---
 
@@ -23,7 +23,7 @@ permalink: /:slug
     </div>
     <div>
       <h3>UX Problems</h3>
-      <p>Small merchants (earning about $600 a month) don't have enough income documentation to get a loan from traditional banks. After GoModal was launched as an MVP, there were several problems related to the product which was solved by design.</p>
+      <p>Small mom and pop restaurants (earning about $600 a month) don't have enough income documentation to get a loan from traditional banks. After GoModal was launched as an MVP, there were several problems related to the product which was solved by design.</p>
     </div>
   </div>
   <video src="/assets/gm/GM-1.mp4" autoplay muted loop></video>

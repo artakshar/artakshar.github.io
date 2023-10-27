@@ -3,7 +3,7 @@ layout: post
 title: "Simplifying messenger marketing for Shopify stores"
 date: 2018-08-28 10:15:00 -0600
 brand: "Convertfly"
-description: "This is the most-told story of mine. Our PayLater users were at a baseline satisfaction and we tried to elevate it further. We discovered our initial mistakes, validate what was wrong, and tested our approach."
+description: "Convertfly helped Shopify storeowners with Facebook Messenger Marketing. Its initial experience involved tedious campaign setup and waiting for results. Overlooking the simplicity preferred by typical Shopify store owners."
 permalink: /:slug
 ---
 

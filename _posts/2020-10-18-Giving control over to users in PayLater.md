@@ -4,7 +4,7 @@ title: "Giving control over to users in PayLater"
 date: 2020-10-15 00:28:00 -0600
 brand: "Gojek"
 logo: "./assets/landing/logo-gojek.svg"
-description: "This is the most-told story of mine. Our PayLater users were at a baseline satisfaction and we tried to elevate it further. We discovered our initial mistakes, validate what was wrong, and tested our approach."
+description: "We aimed to provide users with flexible buy-now-pay-later options by aligning GoPayLater with limits that match what users want, rather than imposing fixed credit limits."
 permalink: /:slug
 ---
 
