@@ -2,7 +2,7 @@
 This project was built in 2018 - 2019 and I don't update this anymore. I used Jekyll without any themes for generating static website without focusing too much on formatting.
 
 #### About me
-I am Akshar, a product designer working at <a href="https://www.gojek.io/">Gojek</a>. I am in the financial services team part of GoPay group.
+Seasoned Designer with over eight years of diverse experience, specializing in steering design teams and spearheading key projects focusing on financial products - with the ability to abstract complexities, ensuring an excellent user experience.
 
 
 #### Design process
