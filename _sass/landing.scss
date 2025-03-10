@@ -1,6 +1,6 @@
 #landing-hero {
   position: relative;
-  padding: 0 0 20rem 0;
+  padding: 0 0 18rem 0;
   width: 100%;
   margin: 0 auto;
   text-align: left;
@@ -14,6 +14,9 @@
   h1 {
     color: #ffffff;
     margin: 0 0 1rem 0;
+  }
+  h1.subtext {
+    color: #7b8881;
   }
   h4 {
     width: 100%;
