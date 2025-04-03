@@ -5,6 +5,7 @@ date: 2018-08-28 10:15:00 -0600
 brand: "Convertfly"
 description: "Convertfly helped Shopify storeowners with Facebook Messenger Marketing. Its initial experience involved tedious campaign setup and waiting for results. Overlooking the simplicity preferred by typical Shopify store owners."
 permalink: /:slug
+projectimage: "/assets/convertfly-making-messenger-marketing-simple/cover.png"
 ---
 
 

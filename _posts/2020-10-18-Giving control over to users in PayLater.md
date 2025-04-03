@@ -6,6 +6,7 @@ brand: "Gojek"
 logo: "./assets/landing/logo-gojek.svg"
 description: "We aimed to provide users with flexible buy-now-pay-later options by aligning GoPayLater with limits that match what users want, rather than imposing fixed credit limits."
 permalink: /:slug
+projectvideo: "/assets/pyl/PYL-Intro.mp4"
 ---
 
 
