@@ -1,9 +1,21 @@
 <div class="portfolio-item">
 
+  {% if post.projectvideo %}
+    <div class="media-container">
+      <video autoplay loop muted playsinline src="{{ post.projectvideo }}"></video>
+      </video>
+    </div>
+  {% endif %}
+  {% if post.projectimage %}
+    <div class="media-container">
+      <img src="{{ post.projectimage }}" alt="{{ post.title }}">
+    </div>
+  {% endif %}
+  
   <div class="p-content">
     <h3>{{ post.title }}</h3>
     <p class="subtitle"> {{ post.brand }} </p>
     <p> {{post.description}} </p>
-    <a class="btn-primary" href={{ post.url }}> Read more</a>
+    <a class="btn-primary" href={{ post.url }}> Read case study</a>
   </div>
 </div>

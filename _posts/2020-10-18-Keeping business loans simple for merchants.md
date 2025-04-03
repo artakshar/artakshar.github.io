@@ -6,6 +6,7 @@ brand: "Gojek"
 logo: "./assets/landing/logo-gojek.svg"
 description: "GoModal helped small mom and pop restaurants to apply for cash loans. This project talks about problems discovered with MVP and how designing solutions beyond interface helped boast loan application rate and repayment rate."
 permalink: /:slug
+projectvideo: "/assets/gm/GM-1.mp4"
 ---
 
 
