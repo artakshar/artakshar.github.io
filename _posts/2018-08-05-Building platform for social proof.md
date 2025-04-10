@@ -2,9 +2,10 @@
 layout: post
 title: "Building a platform to increase sales"
 date: 2018-08-26 10:15:00 -0600
-brand: "GrowthKit"
+brand: "GrowthKit (Wingify)"
 description: "GrowthKit, a revenue-boosting platform, leveraged customer insights like sales per week and trending products. Targeting mid-sized e-commerce companies with $1 million in annual revenue, initial tests yielded an impressive 15% average conversion rate uplift."
 permalink: /:slug
+projecttype: desktop
 projectimage: "/assets/building-platform-for-social-proof/cover.png"
 ---
 

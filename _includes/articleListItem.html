@@ -1,20 +1,19 @@
 <div class="portfolio-item">
 
-  {% if post.projectvideo %}
+  {% if post.projecttype == "mobile" %}
     <div class="media-container">
-      <video autoplay loop muted playsinline src="{{ post.projectvideo }}"></video>
-      </video>
+      <img autoplay loop muted playsinline src="{{ post.projectimage }}" class="mobile-cover"></img>
     </div>
   {% endif %}
-  {% if post.projectimage %}
+  {% if post.projecttype == "desktop" %}
     <div class="media-container">
-      <img src="{{ post.projectimage }}" alt="{{ post.title }}">
+      <img src="{{ post.projectimage }}" alt="{{ post.title }}" class="desktop-cover">
     </div>
   {% endif %}
   
   <div class="p-content">
-    <h3>{{ post.title }}</h3>
     <p class="subtitle"> {{ post.brand }} </p>
+    <h3>{{ post.title }}</h3>
     <p> {{post.description}} </p>
     <a class="btn-primary" href={{ post.url }}> Read case study</a>
   </div>

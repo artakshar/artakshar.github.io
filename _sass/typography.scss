@@ -22,8 +22,8 @@ $serif: 'Inter', system-ui;
 h1 {
   font-size: 3em;
   line-height: 1.2em;
-  letter-spacing: -0.1rem;
-  font-weight: 600;
+  letter-spacing: -0.075rem;
+  font-weight: 700;
   margin: 0;
   color: $black;
   font-family: $serif;
@@ -35,7 +35,6 @@ h2 {
   font-weight: 400;
   margin: 0;
   color: $black;
-  font-weight: 700;
   line-height: 128%; /* 30.72px */
   font-family: $serif;
 }
@@ -43,8 +42,9 @@ h2 {
 h3 {
   font-size: 1.5em;
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
   color: $black;
+  letter-spacing: -0.04rem;
   line-height: 125%; /* 27px */
   font-family: $serif;
 }
@@ -60,7 +60,7 @@ h4 {
 
 h5 {
   font-family: $sans;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1em;
   margin: 0;
 }

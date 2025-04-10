@@ -14,12 +14,31 @@ layout: landing
 
   </section>
   <section id="portfolio">
+
+    <!-- Latest portfolio stuff -->
     <h6>PAST WORK</h6>
     <div class="container">
       {% for post in site.posts limit:4 %}
         {% include articleListItem.html %}
       {% endfor %}
     </div>
+
+    <!-- Motion graphics and latest stuff that doesn't fit into portfolio article yet -->
+    <div class="snippets">
+      <div class="row">
+        <div class="col-3">
+          <h3>Design snippets</h3>
+          <p>Not all work needs to say its story. Here’s a glimpse of incremental changes that shaped over time.</p>
+        </div>
+        <div class="col-9">
+          <div class="media-container" style="background-color: #f0f0f0; width: 100%; height: 400px;">
+            <video src=""></video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Much older stuff that might help see progress of a designer -->
     <h6 class="mt-80 mb-24">MUCH OLDER WORK</h6>
     <div class="blog-grid">
       {% for post in site.posts offset:4 %}

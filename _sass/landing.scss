@@ -69,17 +69,18 @@
   margin: 2rem auto 0 auto;
   padding: 0.5rem;
   display: flex;
+  text-align: center;
   border-radius: 1.25rem;
   background-color: white;
-  border: $separator solid 1px;
-  box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  border: $separator-dark solid 1px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.08);
   flex-direction: column;
   align-items: stretch;
   overflow: hidden;
   
   .subtitle {
-    margin: 4px 0 0 0;
-    font-weight: 600;
+    margin: 0 0 1.5rem 0;
+    font-weight: 500;
     color: $secondary;
   }
   
@@ -90,6 +91,10 @@
     h3, p {
       width: 100%;
     }
+
+    p {
+      margin-top: 0.5rem;
+    }
   }
   
   .media-container {
@@ -97,12 +102,19 @@
     height: auto;
     border-radius: 1rem;
     overflow: hidden;
-    
+
     img, video {
       width: 100%;
-      height: auto;
       object-fit: cover;
       display: block;
+    }
+
+    img.desktop-cover {
+      height: auto;
+    }
+
+    img.mobile-cover {
+      height: 560px;
     }
   }
   
@@ -188,4 +200,50 @@
 marquee {
   color: $secondary;
   padding: 4px 0;
+}
+
+.snippets {
+  margin: 80px auto;
+  max-width: 800px;
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .row-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: start;
+  }
+
+  .row-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .row-3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+  }
+
+  .snippet-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .snippet-image {
+    width: 100%;
+    background-color: #f0f0f0;
+    aspect-ratio: 16/9;
+  }
+
+  .snippet-caption {
+    font-size: 0.75rem;
+    color: $secondary;
+  }
 }
