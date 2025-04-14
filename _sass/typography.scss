@@ -2,7 +2,7 @@
   font-family: 'Satoshi';
   src: url('../assets/fonts/Satoshi-Variable.woff2') format('woff2'),
   url('../assets/fonts/Satoshi-Variable.woff2') format('woff2');
-  font-weight: 400, 700;
+  font-weight: 400, 600;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -20,10 +20,10 @@ $sans: 'Inter', system-ui;
 $serif: 'Inter', system-ui;
 
 h1 {
-  font-size: 3em;
+  font-size: 2.75em;
   line-height: 1.2em;
-  letter-spacing: -0.075rem;
-  font-weight: 700;
+  letter-spacing: -0.088rem;
+  font-weight: 500;
   margin: 0;
   color: $black;
   font-family: $serif;
@@ -32,7 +32,7 @@ h1 {
 h2 {
   font-size: 2.4em;
   line-height: 1.2em;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
   color: $black;
   line-height: 128%; /* 30.72px */
@@ -42,7 +42,7 @@ h2 {
 h3 {
   font-size: 1.5em;
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
   color: $black;
   letter-spacing: -0.04rem;
   line-height: 125%; /* 27px */
@@ -60,7 +60,7 @@ h4 {
 
 h5 {
   font-family: $sans;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1em;
   margin: 0;
 }
@@ -69,7 +69,7 @@ h6 {
   font-size: 0.75;
   margin: 0;
   font-family: $sans;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 2px;
 }
 

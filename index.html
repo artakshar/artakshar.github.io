@@ -7,16 +7,18 @@ layout: landing
   <section id="landing-hero">
     {% include header.html %}
     <div class="container">
-      <h1>I'm Akshar Patel, lead product designer at p0. <span class="subtext">Previously led design teams at Multiplier and Gojek.</span></h1>
-      <h4>Passionately dedicated to building high-performance lean design teams and fostering a culture anchored in strong principles. Over the past decade, I've specialized in creating impactful products with a decisive bias toward action and measurable outcomes.</h4>
+      <h1>Hello, I'm Akshar Patel. </br> Lead product designer at <div class="logo-container"><img src="/assets/icons/logo-p0.svg" alt="p0 logo" width="40" height="40">p0</div>. <span class="subtext">Previously led design at <div class="logo-container"><img src="/assets/icons/logo-multiplier.svg" alt="Multiplier logo" width="40" height="40">Multiplier</div> and <div class="logo-container"><img src="/assets/icons/logo-gojek.svg" alt="Gojek logo" width="40" height="40">Gojek</div>.</span></h1>
     </div>
-    <canvas id="gradient-canvas" data-transition-in />
-
   </section>
+
+
   <section id="portfolio">
 
     <!-- Latest portfolio stuff -->
-    <h6>PAST WORK</h6>
+     <div class="scroll-clue">
+      <p class="text-secondary">Past work </p>
+      <img src="assets/icons/arrow-down-circle-outline.svg" alt="">
+     </div>
     <div class="container">
       {% for post in site.posts limit:4 %}
         {% include articleListItem.html %}
@@ -25,21 +27,40 @@ layout: landing
 
     <!-- Motion graphics and latest stuff that doesn't fit into portfolio article yet -->
     <div class="snippets">
-      <div class="row">
-        <div class="col-3">
-          <h3>Design snippets</h3>
-          <p>Not all work needs to say its story. Here’s a glimpse of incremental changes that shaped over time.</p>
+      <div class="grid-container">
+        <div class="row-1">
+          <div class="text-content">
+            <h2>Design <br>snippets</h2>
+            <p class="caption">Not all work needs to say its story. Here's a glimpse of incremental changes that shaped over time.</p>
+          </div>
+          <div class="snippet-item">
+            <video src="assets/landing/snippet-1.mp4" class="snippet-video" autoplay loop muted></video>
+            <span class="snippet-caption">▷ Video: Simplifying deployment for everyone</span>
+          </div>
         </div>
-        <div class="col-9">
-          <div class="media-container" style="background-color: #f0f0f0; width: 100%; height: 400px;">
-            <video src=""></video>
+
+        <div class="row-2">
+          <div class="snippet-item">
+            <img src="assets/landing/snippet-2.png" class="snippet-image"></img>
+            <span class="snippet-caption">Highlight code with code excepts</span>
+          </div>
+        </div>
+
+        <div class="row-3">
+          <div class="snippet-item">
+            <video src="assets/landing/snippet-3.mp4" class="snippet-video" autoplay loop muted></video>
+            <span class="snippet-caption">▷ Video: Delights of enterprise</span>
+          </div>
+          <div class="snippet-item">
+            <video src="assets/landing/snippet-4.mp4" class="snippet-video" autoplay loop muted></video>
+            <span class="snippet-caption">▷ Video: Managing wait times gracefully</span>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Much older stuff that might help see progress of a designer -->
-    <h6 class="mt-80 mb-24">MUCH OLDER WORK</h6>
+    <h6 class="mt-80 mb-24 text-secondary">MUCH OLDER WORK</h6>
     <div class="blog-grid">
       {% for post in site.posts offset:4 %}
         {% include blogGridItem.html %}

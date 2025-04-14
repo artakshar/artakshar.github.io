@@ -1,7 +1,7 @@
 
 html {
   font-family: $sans;
-  background: $background;
+  background: $background-gradient;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -12,6 +12,11 @@ body {
 // Header
 header {
   padding: 2.5rem 0;
+}
+
+.text-secondary {
+  color: $secondary;
+  font-weight: 500;
 }
 
 // Margins

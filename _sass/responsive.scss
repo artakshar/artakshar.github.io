@@ -38,7 +38,29 @@
     .p-content {
       padding: 1.5rem 1rem 1.25rem 1rem;
     }
+
+    img.mobile-cover {
+      height: auto;
+      min-height: 80vw;
+      max-height: 480px;
+    }
    } 
+  }
+
+  .snippets {
+    margin: 8rem 0 2rem 0;
+
+    .grid-container {
+      gap: 2rem;
+
+      div {
+        grid-template-columns: 1fr;
+      }
+
+      .row-1, .row-3{
+        gap: 2rem;
+      }
+    }
   }
 
   .blog-grid {

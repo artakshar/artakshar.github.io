@@ -1,6 +1,6 @@
 #landing-hero {
   position: relative;
-  padding: 0 0 18rem 0;
+  padding: 0 0 20rem 0;
   width: 100%;
   margin: 0 auto;
   text-align: left;
@@ -8,42 +8,27 @@
 
   .container {
     margin-top: 12rem;
-    max-width: 794px;
+    max-width: 900px;
     width: 100%;
   }
   h1 {
-    color: #ffffff;
     margin: 0 0 1rem 0;
+    text-align: center;
+
+    .logo-container {
+      display: inline-flex;
+      align-items: center;
+
+      img {
+        margin-right: 8px;
+      }
+    }
   }
   h1 span.subtext {
-    color: #7b8881;
-  }
-  h4 {
-    width: 100%;
-    max-width: 640px;
-  }
-  a {
-    margin: 0 24px 0 0;
-  }
-  .actions {
-    display: flex;
-    margin: 24px 0 0 0;
+    color: $secondary;
   }
 }
 
-// Gradient background
-#gradient-canvas {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  --gradient-color-1: #333333;
-  --gradient-color-2: #1a1a1a;
-  --gradient-color-3: #1a1a1a;
-  --gradient-color-4: #1a1a1a;
-}
 
 // Portfolio section
 #portfolio {
@@ -58,15 +43,29 @@
   max-width: 800px;
 }
 
-#portfolio > h6 {
-  margin-bottom: 0.25rem;
-  color: $secondary;
+.scroll-clue {
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
   width: 100%;
-  text-align: center;
+  justify-content: center;
+
+  img {
+    width: 16px;
+  }
+
+  p {
+    margin: 0.25rem;
+  }
+}
+
+.portfolio-item:first-child {
+  margin-top: 2rem;
 }
 
 .portfolio-item {
-  margin: 2rem auto 0 auto;
+  margin: 4rem auto 0 auto;
   padding: 0.5rem;
   display: flex;
   text-align: center;
@@ -96,7 +95,7 @@
       margin-top: 0.5rem;
     }
   }
-  
+
   .media-container {
     width: 100%;
     height: auto;
@@ -129,7 +128,7 @@
 // Blog section
 .blog-grid {
   display: grid;
-  max-width: 800px;
+  max-width: 960px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1);
   grid-column-gap: 0px;
@@ -177,46 +176,34 @@
 //   }
 // }
 
-#footer {
-    margin-top: 12rem;
-    margin: 0 auto;
-    max-width: 794px;
-    width: 100%;
-}
-
-#footer .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#footer .container .social {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
-}
-
-marquee {
-  color: $secondary;
-  padding: 4px 0;
-}
-
 .snippets {
-  margin: 80px auto;
-  max-width: 800px;
+  margin: 10rem auto;
+  max-width: 960px;
+
+  h2 {
+    font-weight: 800;
+    line-height: 2.6rem;
+    font-size: 2.5rem;
+    letter-spacing: -0.04rem;
+  }
+
+  .caption {
+    color: $secondary;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
 
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 2rem;
   }
 
   .row-1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 40px;
-    align-items: start;
+    gap: 4rem;
+    align-items: center;
   }
 
   .row-2 {
@@ -227,23 +214,62 @@ marquee {
   .row-3 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 40px;
+    gap: 1.25rem;
   }
 
   .snippet-item {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.5rem;
   }
 
   .snippet-image {
     width: 100%;
     background-color: #f0f0f0;
-    aspect-ratio: 16/9;
+    height: auto;
+    border-radius: 1rem;
+    border: 1px solid $separator;
+    overflow: hidden;
+  }
+
+  .snippet-video {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: auto;
+    border-radius: 1rem;
+    border: 1px solid $separator;
+    overflow: hidden;
   }
 
   .snippet-caption {
     font-size: 0.75rem;
     color: $secondary;
+    text-align: center;
+    margin-top: 0.5rem;
   }
+}
+
+#footer {
+  margin-top: 12rem;
+  margin: 0 auto;
+  max-width: 794px;
+  width: 100%;
+}
+
+#footer .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#footer .container .social {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 1rem;
+}
+
+marquee {
+color: $secondary;
+padding: 4px 0;
 }

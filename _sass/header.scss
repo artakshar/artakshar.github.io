@@ -5,36 +5,36 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-
-
-  .inverted {
-    color: white;
-  }
 }
 
 header .center-nav-items {
   display: flex;
   column-gap: 0.5rem;
+  justify-content: center;
 
- .nav-item {
-    padding: 8px 16px;
+  .btn-primary {
+    padding: 0.5rem 1rem;
     display: flex;
-    font-weight: 600;
-    color: white;
-    opacity: 0.5;
     align-items: center;
-    transition: all ease-in-out 0.2s;
-  }
+    gap: 0.125rem;
 
-  .nav-item:hover {
-    opacity: 1;
-  }
+      .icon {
+        color: white;
+        width: 16px;
+        height: 16px;
+        margin-right: 0.25rem;
+        filter: brightness(0) invert(1);
+    }
 
-  .nav-item .icon {
-    width: 18px;
-    height: 18px;
-    margin-right: 0.5rem;
-    filter: invert(1);
+    .btn-primary:hover {
+      opacity: 0.8;
+    }
   }
-  
+}
+
+#brand {
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  line-height: 1.5rem;
 }

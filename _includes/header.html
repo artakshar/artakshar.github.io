@@ -1,11 +1,11 @@
 <header>
   {% if page.url == "/" %}
 
-    <div class="brand inverted">
-      <h5>Akshar Patel</h5>
+    <div>
+      <h5 id="brand">Akshar Patel</h5>
     </div>
-    <div class="center-nav-items inverted">
-      <a href="../assets/landing/Akshar Patel - Resume - Lead Product Designer.pdf" class="nav-item" target="_blank"><img class="icon" src="../assets/icons/download-outline.svg" alt=""> Resume</a>
+    <div class="center-nav-items">
+      <a href="../assets/landing/Akshar Patel - Resume - Lead Product Designer.pdf" class="btn-primary" target="_blank"><img class="icon" src="/assets/icons/arrow-down-circle-outline.svg" alt="">  Resume</a>
     </div>
 
   {% elsif page.url == "/about.html" %}
@@ -16,12 +16,11 @@
     <div class="center-nav-items">
       <a href="../" class="nav-item ">Work</a>
       <a href="/process.html" class="nav-item">Resume</a>
-
     </div>
       
   {% else %}
 
-    <a href="/" class="btn-default">Back to home</a>
+    <a href="/" class="btn-outline">Back to home</a>
 
   {% endif %}
 </header>
