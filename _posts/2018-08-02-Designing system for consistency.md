@@ -2,7 +2,7 @@
 layout: post
 title: "Designing a system for consistency"
 date: 2018-08-26 10:15:00 -0600
-brand: "Design systems"
+brand: "Helpshift (Design System)"
 description: "Built design system for smoother collaborations between designers and engineers. Aligning our existing interface designs with experiences standards by Android and iOS."
 permalink: /:slug
 ---

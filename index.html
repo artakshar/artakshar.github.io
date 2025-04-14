@@ -14,19 +14,12 @@ layout: landing
 
   <section id="portfolio">
 
-    <!-- Latest portfolio stuff -->
-     <div class="scroll-clue">
-      <p class="text-secondary">Past work </p>
-      <img src="assets/icons/arrow-down-circle-outline.svg" alt="">
-     </div>
-    <div class="container">
-      {% for post in site.posts limit:4 %}
-        {% include articleListItem.html %}
-      {% endfor %}
-    </div>
-
     <!-- Motion graphics and latest stuff that doesn't fit into portfolio article yet -->
     <div class="snippets">
+      <div class="scroll-clue">
+        <p class="text-secondary">Past work </p>
+        <img src="assets/icons/arrow-down-circle-outline.svg" alt="">
+       </div>
       <div class="grid-container">
         <div class="row-1">
           <div class="text-content">
@@ -58,6 +51,18 @@ layout: landing
         </div>
       </div>
     </div>
+
+    <!-- Latest portfolio stuff -->
+    <div class="container">
+      <div class="text-content">
+        <h2>Case studies</h2>
+        <p class="caption">Dive deeper into problem statements, process, prototypes, and results in a more structured form.</p>
+      </div>
+      {% for post in site.posts limit:4 %}
+        {% include articleListItem.html %}
+      {% endfor %}
+    </div>
+
 
     <!-- Much older stuff that might help see progress of a designer -->
     <h6 class="mt-80 mb-24 text-secondary">MUCH OLDER WORK</h6>

@@ -2,7 +2,7 @@
 layout: post
 title: "A short tale about rapid prototyping"
 date: 2018-08-26 10:15:00 -0600
-brand: "Rapid prototyping"
+brand: "CustomerJet (Wingify)"
 description: "CustomerJet helped customer support and experience teams reduce the resolution time and resolve critical conversations faster."
 permalink: /:slug
 ---

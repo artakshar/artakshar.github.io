@@ -13,21 +13,18 @@ header .center-nav-items {
   justify-content: center;
 
   .btn-primary {
-    padding: 0.5rem 1rem;
-    display: flex;
     align-items: center;
-    gap: 0.125rem;
+    gap: 0.25rem;
 
-      .icon {
-        color: white;
-        width: 16px;
-        height: 16px;
-        margin-right: 0.25rem;
-        filter: brightness(0) invert(1);
+    .icon {
+      color: white;
+      width: 16px;
+      height: 16px;
+      filter: brightness(0) invert(1);
     }
 
-    .btn-primary:hover {
-      opacity: 0.8;
+    &:hover{
+      gap: 0.5rem;
     }
   }
 }

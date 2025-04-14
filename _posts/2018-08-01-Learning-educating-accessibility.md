@@ -2,7 +2,7 @@
 layout: post
 title: "Learning & educating accessibility"
 date: 2018-08-26 10:15:00 -0600
-brand: "Design for all"
+brand: "Helpshift"
 description: "While building a design system at Helpshift, we took the opportunity to be design experiences that everyone could across all mobile and desktop platforms."
 permalink: /:slug
 ---

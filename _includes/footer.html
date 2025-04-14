@@ -1,12 +1,12 @@
 <footer class="container">
     {% if page.next.url %}
-      <a class="btn-outline" href="{{ page.next.url }}">Previous: {{page.next.brand}}</a>
+      <a class="btn-outline" href="{{ page.next.url }}"><span>←</span>{{page.next.brand}}</a>
     {% else %}
-      <a class="btn-outline" href="/">Back to home</a>
+      <a class="btn-outline" href="/"><span>←</span>Back to home</a>
     {% endif %}
     {% if page.previous.url %}
-      <a class="btn-primary" href="{{ page.previous.url }}">Next: {{page.previous.brand}}</a>
+      <a class="btn-primary" href="{{ page.previous.url }}">{{page.previous.brand}} <span>→</span></a>
     {% else %}
-      <a class="btn-outline" href="/">Back to home</i></a>
+      <a class="btn-outline" href="/">Back to home <span>→</span></a>
     {% endif %}
 </footer>

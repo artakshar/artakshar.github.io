@@ -8,15 +8,10 @@
   #landing-hero {
     width: 100%;
     box-sizing: border-box;
-    padding: 0 1.5rem 14rem 1.5rem;
-
-    a {
-      margin: 0;
-      padding: 0;
-    }
+    padding: 0 1.5rem 4rem 1.5rem;
 
     .container {
-      margin-top: 8rem;
+      margin-top: 2rem;
     }
 
     h1 {
@@ -34,6 +29,7 @@
 
    .portfolio-item {
     padding: 0.5rem;
+    margin-top: 1.5rem;
 
     .p-content {
       padding: 1.5rem 1rem 1.25rem 1rem;
@@ -48,7 +44,7 @@
   }
 
   .snippets {
-    margin: 8rem auto 2rem auto;
+    margin: 8rem auto 8rem auto;
 
     .grid-container {
       gap: 2rem;
@@ -82,12 +78,16 @@
     padding-right: 1rem;
   }
 
-  header .btn-default {
+  header .btn-outline {
     margin-left: 1rem;
   }
 
   footer {
     box-sizing: border-box;
+  }
+
+  .btn-outline, .btn-primary {
+    padding: 0.5rem 1rem;
   }
 }
 
