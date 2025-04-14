@@ -5,13 +5,17 @@
     margin: 0;
   }
 
+  header {
+    padding: 1.25rem 0;
+  }
+
   #landing-hero {
     width: 100%;
     box-sizing: border-box;
     padding: 0 1.5rem 4rem 1.5rem;
 
     .container {
-      margin-top: 2rem;
+      margin-top: 6rem;
     }
 
     h1 {
@@ -27,6 +31,10 @@
     padding-left: 1rem;
     padding-right: 1rem;
 
+    .text-content h2 {
+      font-size: 2rem !important;
+    }
+
    .portfolio-item {
     padding: 0.5rem;
     margin-top: 1.5rem;
@@ -40,11 +48,15 @@
       min-height: 80vw;
       max-height: 480px;
     }
-   } 
+   }
   }
 
   .snippets {
-    margin: 8rem auto 8rem auto;
+    margin: 4rem auto 2rem auto;
+
+    .text-content {
+      text-align: center;
+    }
 
     .grid-container {
       gap: 2rem;
