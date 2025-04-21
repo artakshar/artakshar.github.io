@@ -17,7 +17,8 @@
 
     .logo-container {
       display: inline-flex;
-      align-items: center;
+      align-items: baseline;
+      line-height: 0;
 
       img {
         margin-right: 8px;
