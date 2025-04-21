@@ -268,7 +268,7 @@
   .snippet-media-container {
     display: flex;
     overflow: hidden;
-    border-radius: 16px;
+    border-radius: 1rem;
     border: 1px solid $separator;
   }
 
@@ -276,14 +276,12 @@
     width: 100%;
     background-color: #f0f0f0;
     height: auto;
-    border-radius: 16px;
   }
 
   .snippet-video {
     width: 100%;
     background-color: #f0f0f0;
     height: auto;
-    border-radius: 16px;
   }
 
   .snippet-caption {
